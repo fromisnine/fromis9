@@ -1,36 +1,37 @@
 # Jekyll configuration
 markdown: kramdown
 highlighter: rouge
-paginate: 100 # it will paginate after this number
+paginate: 10 # it will paginate after this number
 language: 'en-uk'
 
+url: https://fromis9.kr
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /
+baseurl: /jasper2/
 
 # Website info
-title: Ghost
-description: The professional publishing platform
+title: Fromis_9 Fan Page
+description: Fromis_9 Fan Page
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: https://nirone7.github.io/
-source_url: https://github.com/Nirone7/nirone7.github.io
+production_url: https://fromis9.kr/jasper2/
+source_url: https://github.com/fromisnine/jasper2/
 
 # Social info
 navigation: True # show the navbar links
 subscribers: True # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: tryghost # replace by your username
-facebook: ghost # replace by your username
+twitter: realfromis_9 # replace by your username
+facebook: officialfromis9 # replace by your username
 
 # Disqus
-disqus: False
-disqus_shortname: jekyller # replace with your disqus username
+disqus: True
+disqus_shortname: fromis9 # replace with your disqus username
 
 # Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+google_analytics: UA-120523980-1 # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
@@ -66,13 +67,13 @@ feed:
 # or "master" otherwise
 safe: False
 lsi: False
-username: Nirone7
-repo: nirone7.github.io
+username: fromisnine
+repo: jasper2
 branch: master
 relative_source: ../jasper2/
-destination: ../jasper2-pages/
-production_url:  https://nirone7.github.io/
-source_url:  https://github.com/Nirone7/nirone7.github.io
+destination: ./output/
+production_url:  https://fromis9.kr/jasper2/
+source_url:  https://github.com/fromisnine/jasper2/
 
 exclude:
   - assets/css
