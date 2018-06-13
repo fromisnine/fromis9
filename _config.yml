@@ -68,7 +68,7 @@ feed:
 safe: False
 lsi: False
 username: fromisnine
-repo: jasper2
+repo: fromis9
 branch: master
 relative_source: ../fromisnine.github.io/
 destination: ../posts
