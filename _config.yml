@@ -6,7 +6,7 @@ language: 'en-uk'
 
 url: https://fromis9.kr
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /jasper2/
+baseurl: /
 
 # Website info
 title: Fromis_9 Fan Page
@@ -15,8 +15,8 @@ cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: https://fromis9.kr/jasper2/
-source_url: https://github.com/fromisnine/jasper2/
+production_url: https://fromis9.kr/
+source_url: https://github.com/fromisnine/fromisnine.github.io/
 
 # Social info
 navigation: True # show the navbar links
@@ -70,10 +70,10 @@ lsi: False
 username: fromisnine
 repo: jasper2
 branch: master
-relative_source: ../jasper2/
-destination: ./output/
-production_url:  https://fromis9.kr/jasper2/
-source_url:  https://github.com/fromisnine/jasper2/
+relative_source: ../fromisnine.github.io/
+destination: ../posts
+production_url:  https://fromis9.kr/
+source_url:  https://github.com/fromisnine/fromisnine.github.io
 
 exclude:
   - assets/css
