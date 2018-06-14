@@ -1,9 +1,9 @@
 ---
 layout: post
 current: post
-cover: '/assets/images/dkdk_album_cover.jpg'
+cover: 'assets/images/dkdk_album_cover.jpg'
 navigation: true
-title: To. Day 약속회 OFFICIAL MD 안내
+title: 프로미스나인 To.Day - 앨범 소개
 date: 2018-06-11
 tags: notice
 class: post-template
@@ -11,18 +11,8 @@ subclass: 'post tag-notice'
 author: imreplay
 ---
 
----
-layout: post
-title: 프로미스나인 To.Day - 앨범 소개
-tags : DKDK
-excerpt: "Fromis_9 About To.Day Album"
-categories: [album]
-comments: true
-image:
-  feature: https://fromis9.kr/img/dkdk_album_cover.jpg
----
 
-### 프로미스나인 To.Day - 앨범 소개
+프로미스나인 To.Day - 앨범 소개
 
 ![album](/assets/images/dkdk_album.jpg)
 
