@@ -12,4 +12,5 @@ subclass: 'post page'
 
 > Now This page is under construction
 
+사진을 안올려서 photo 누르면 
 
