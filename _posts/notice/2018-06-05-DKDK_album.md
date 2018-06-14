@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: 'assets/images/dkdk_album_cover.jpg'
+cover: '/assets/images/dkdk_album_cover.jpg'
 navigation: true
 title: 프로미스나인 To.Day - 앨범 소개
 date: 2018-06-11
