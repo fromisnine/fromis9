@@ -1,16 +1,59 @@
-speeches:
-  name: speeches
-  description: Some of the greatest words ever spoken.
-  cover: assets/images/speeches.jpg
-fiction:
-  name: fiction
+photo:
+  name: photo
+  description: False
+  cover: http://media.fromisnine.com/wp-content/uploads/2018/05/25200607/fromis_9_Official-Photo.jpg
+
+video:
+  name: video
+  description: False
+  cover: http://media.fromisnine.com/wp-content/uploads/2018/05/25200607/fromis_9_Official-Photo.jpg
+
+notice:
+  name: notice
+  description: False
+  cover: http://media.fromisnine.com/wp-content/uploads/2018/05/25200607/fromis_9_Official-Photo.jpg
+
+새롬:
+  name: 새롬
+  description: False
+  cover: False 
+
+지선:
+  name: 지선
+  description: False
+  cover: False 
+
+하영:
+  name: 하영
+  description: False
+  cover: False 
+
+채영:
+  name: 채영
+  description: False
+  cover: False 
+
+서연:
+  name: 서연
+  description: False
+  cover: False 
+
+지원:
+  name: 지원
   description: False
   cover: False
-fables:
-  name: fables
-  description: A series of short stories that make you think.
-  cover: assets/images/fables.jpg
-getting-started:
-  name: getting-started
+
+나경:
+  name: 나경
+  description: False
+  cover: False
+
+지헌:
+  name: 지헌
+  description: False
+  cover: False
+
+규리:
+  name: 규리
   description: False
   cover: False
