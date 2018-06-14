@@ -1,7 +1,7 @@
 # Jekyll configuration
 markdown: kramdown
 highlighter: rouge
-paginate: 10 # it will paginate after this number
+paginate: 1 # it will paginate after this number
 language: 'en-uk'
 
 url: https://fromisnine.github.io/
