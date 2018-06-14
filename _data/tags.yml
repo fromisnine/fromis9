@@ -1,17 +1,17 @@
 photo:
   name: photo
   description: False
-  cover: http://media.fromisnine.com/wp-content/uploads/2018/05/25200607/fromis_9_Official-Photo.jpg
+  cover: assets/images/fromis_9_Official-Photo.jpg
 
 video:
   name: video
   description: False
-  cover: http://media.fromisnine.com/wp-content/uploads/2018/05/25200607/fromis_9_Official-Photo.jpg
+  cover: assets/images/fromis_9_Official-Photo.jpg
 
 notice:
   name: notice
   description: False
-  cover: http://media.fromisnine.com/wp-content/uploads/2018/05/25200607/fromis_9_Official-Photo.jpg
+  cover: assets/images/fromis_9_Official-Photo.jpg
 
 새롬:
   name: 새롬
