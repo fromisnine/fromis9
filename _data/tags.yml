@@ -14,9 +14,9 @@ notice:
   cover: assets/images/tag/fromis_9_Official-Photo.jpg
 
 새롬:
-  name: saerom
+  name: 새롬
   description: False
-  cover: assets/images/tag/saerom.jpg 
+  cover: False
 
 지선:
   name: 지선
