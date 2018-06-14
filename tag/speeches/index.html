@@ -100,7 +100,7 @@
 <!-- dynamically loading backgrounds for tags,  descriptions and page titles -->
 
 
-<header class="site-header outer " style="background-image: url(/fromis9/assets/images/speeches.jpg) ">
+<header class="site-header outer no-cover">
     <div class="inner">
         <nav class="site-nav">
     <div class="site-nav-left">
@@ -113,7 +113,7 @@
             <ul class="nav" role="menu">
     <li class="nav-home" role="menuitem"><a href="/fromis9/">Home</a></li>
     <li class="nav-about" role="menuitem"><a href="/fromis9/about/">About</a></li>
-    <li class="nav-getting-started" role="menuitem"><a href="/fromis9/tag/getting-started/">Getting Started</a></li>
+    <li class="nav-video" role="menuitem"><a href="/fromis9/tag/video/">video</a></li>
 </ul>
 
         
@@ -139,7 +139,7 @@
             <h1 class="site-title">Speeches</h1>
             <h2 class="site-description">
                 
-                    Some of the greatest words ever spoken.
+    			    A collection of 2 posts
                 
             </h2>
         </div>
@@ -307,7 +307,7 @@
         function myFunc() {
             if(event.keyCode == 13) {
                 var url = encodeURIComponent($("#searchtext").val());
-                location.href = "/jasper2/search.html?query=" + url;
+                location.href = "/search.html?query=" + url;
             }
         }
     </script>
