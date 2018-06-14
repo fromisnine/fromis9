@@ -1,11 +1,16 @@
 ---
 layout: post
+current: post
+cover: 'https://img.youtube.com/vi/Nj1PgrqD7Z4/0.jpg'
+navigation: true
 title: Comeback Stage | M COUNTDOWN 180607 EP.573
-tags : DKDK
-categories: [M-countdown]
-comments: true
-
+date: 2018-06-07
+tags: video
+class: post-template
+subclass: 'post tag-video'
+author: imreplay
 ---
+
 
 ### [fromis_9 - 22CENTURY GIRL] Comeback Stage | M COUNTDOWN 180607 EP.573
 
