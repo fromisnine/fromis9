@@ -4,7 +4,7 @@ highlighter: rouge
 paginate: 10 # it will paginate after this number
 language: 'en-uk'
 
-url: https://fromisnine.github.io/
+url: https://fromis9.kr
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: "/"
 
@@ -15,8 +15,8 @@ cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: https://fromisnine.github.io/
-source_url: https://github.com/fromisnine/fromisnine.github.io/
+production_url: https://fromis9.kr
+source_url: https://github.com/fromisnine/fromis9
 
 # Social info
 navigation: True # show the navbar links
@@ -70,10 +70,10 @@ lsi: False
 username: fromisnine
 repo: fromis9
 branch: master
-relative_source: ../fromisnine.github.io/
+relative_source: ../fromis9.kr/
 destination: ../posts
-production_url:  https://fromisnine.github.io/
-source_url:  https://github.com/fromisnine/fromisnine.github.io
+production_url:  https://fromis9.kr
+source_url:  https://github.com/fromisnine/fromis9
 
 exclude:
   - assets/css
