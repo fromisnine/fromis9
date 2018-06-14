@@ -13,8 +13,8 @@ notice:
   description: False
   cover: assets/images/tag/fromis_9_Official-Photo.jpg
 
-saerom:
-  name: 새롬
+새롬:
+  name: saerom
   description: False
   cover: assets/images/tag/saerom.jpg 
 
