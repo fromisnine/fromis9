@@ -1,22 +1,22 @@
 photo:
   name: photo
   description: False
-  cover: assets/images/fromis_9_Official-Photo.jpg
+  cover: assets/images/tag/fromis_9_Official-Photo.jpg
 
 video:
   name: video
   description: False
-  cover: assets/images/fromis_9_Official-Photo.jpg
+  cover: assets/images/tag/fromis_9_Official-Photo.jpg
 
 notice:
   name: notice
   description: False
-  cover: assets/images/fromis_9_Official-Photo.jpg
+  cover: assets/images/tag/fromis_9_Official-Photo.jpg
 
 새롬:
   name: 새롬
   description: False
-  cover: False 
+  cover: assets/images/tag/새롬.jpg 
 
 지선:
   name: 지선
