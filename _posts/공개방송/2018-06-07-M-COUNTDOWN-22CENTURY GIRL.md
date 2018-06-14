@@ -1,11 +1,11 @@
 ---
 layout: post
 current: post
-cover: 'assets/images/summit.jpg'
+cover: 'https://img.youtube.com/vi/Nj1PgrqD7Z4/0.jpg'
 navigation: true
 title: Comeback Stage | M COUNTDOWN 180607 EP.573
 date: 2018-06-07
-tags: video
+tags: video [M COUNTDONW]
 class: post-template
 subclass: 'post tag-video'
 author: imreplay
