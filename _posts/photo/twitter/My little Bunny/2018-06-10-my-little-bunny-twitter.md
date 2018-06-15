@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: 'https://pbs.twimg.com/media/DfUyAibV4AA0OVL.jpg:larg'
+cover: 'https://pbs.twimg.com/media/DfUyAibV4AA0OVL.jpg:large'
 navigation: true
 title: twitter photo -  180610 한강 브이앱 하영
 date: 2018-06-12
