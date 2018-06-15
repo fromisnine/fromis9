@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: 'https://img.youtube.com/vi/gQVls_mempI/0.jpg'
+cover: 'https://img.youtube.com/vi/gQVls_mempI/sddefault.jpg'
 navigation: true
 title: News-Ade - 파트 바꾸기
 date: 2018-06-10

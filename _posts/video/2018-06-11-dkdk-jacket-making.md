@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: 'https://img.youtube.com/vi/yf5P592SiR0/0.jpg'
+cover: 'https://img.youtube.com/vi/yf5P592SiR0/sddefault.jpg'
 navigation: true
 title: Fromis_9 - 두근두근(DKDK) JACKET Making
 date: 2018-06-11

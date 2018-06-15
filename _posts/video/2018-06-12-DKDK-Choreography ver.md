@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: 'https://img.youtube.com/vi/NFJMwZQ5_zc/0.jpg'
+cover: 'https://img.youtube.com/vi/NFJMwZQ5_zc/sddefault.jpg'
 navigation: true
 title: Fromis_9 - 두근두근(DKDK) Choreography ver.
 date: 2018-06-12

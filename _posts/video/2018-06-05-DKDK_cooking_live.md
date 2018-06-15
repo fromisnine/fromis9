@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: 'https://img.youtube.com/vi/4_F5fCUeCyQ/0.jpg'
+cover: 'https://img.youtube.com/vi/4_F5fCUeCyQ/sddefault.jpg'
 navigation: true
 title: 쿠킹라이브 Fromis_9 - 두근두근(DKDK)
 date: 2018-06-05

@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: 'https://img.youtube.com/vi/sUgKYUjgu4U/0.jpg'
+cover: 'https://img.youtube.com/vi/sUgKYUjgu4U/sddefault.jpg'
 navigation: true
 title: fromis_9 - 두근두근(DKDK) 응원법
 date: 2018-06-06

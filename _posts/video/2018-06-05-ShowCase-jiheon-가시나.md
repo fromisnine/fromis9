@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: 'https://img.youtube.com/vi/j1XcG7tZqOA/0.jpg'
+cover: 'https://img.youtube.com/vi/j1XcG7tZqOA/sddefault.jpg'
 navigation: true
 title: Vlive 백지헌 - 가시나
 date: 2018-06-05

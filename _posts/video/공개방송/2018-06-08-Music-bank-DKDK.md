@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: 'https://img.youtube.com/vi/tp2F_AnORQ4/0.jpg'
+cover: 'https://img.youtube.com/vi/tp2F_AnORQ4/sddefault.jpg'
 navigation: true
 title: Music Bank  fromis_9-두근두근(DKDK)
 tags: video Music-Bank

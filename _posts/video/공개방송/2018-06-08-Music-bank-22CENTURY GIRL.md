@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: 'https://img.youtube.com/vi/YN-Gjxsa_DY/0.jpg'
+cover: 'https://img.youtube.com/vi/YN-Gjxsa_DY/sddefault.jpg'
 navigation: true
 title: Music Bank fromis_9-22세기 소녀
 date: 2018-06-08

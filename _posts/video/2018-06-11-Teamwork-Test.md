@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: 'https://img.youtube.com/vi/UwbeUZgan7o/0.jpg'
+cover: 'https://img.youtube.com/vi/UwbeUZgan7o/sddefault.jpg'
 navigation: true
 title: News-Ade - 팀워크테스트
 date: 2018-06-11
