@@ -4,6 +4,7 @@ current: post
 cover: 'https://img.youtube.com/vi/tp2F_AnORQ4/sddefault.jpg'
 navigation: true
 title: Music Bank  fromis_9-두근두근(DKDK)
+date: 2018-06-08
 tags: video Music-Bank
 class: post-template
 subclass: 'post tag-video'
