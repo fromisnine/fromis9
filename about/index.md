@@ -13,3 +13,5 @@ subclass: 'post page'
 > Now This page is under construction
 
 사진을 안올려서 photo 누르면 에러가 나요ㅠㅠㅠ
+
+빠른시일내에 작업 끝내도록 하겠습니다!
