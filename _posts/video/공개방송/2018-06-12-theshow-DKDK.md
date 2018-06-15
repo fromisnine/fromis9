@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: 'https://img.youtube.com/vi/ZHLU1Oi_Rac/sddefault.jpg'
+cover: 'https://img.youtube.com/vi/ZHLU1Oi_Rac/hqdefault.jpg'
 navigation: true
 title: The-Show  fromis_9-두근두근(Comeback Stage)
 date: 2018-06-12
