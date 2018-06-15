@@ -86,6 +86,59 @@
     <meta name="generator" content="Jekyll 3.6.2" />
     <link rel="alternate" type="application/rss+xml" title="Author Page" href="/feed.xml" />
 
+    <script type="text/javascript">//<![CDATA[
+    (function(){
+     var cancel=function(e){
+      if (window.event) {
+       window.event.cancelBubble = true;
+       window.event.returnValue = false;
+      }
+      if (e && e.stopPropagation && e.preventDefault) {
+       e.stopPropagation();
+       e.preventDefault();
+      }
+      return false;
+     };
+     var block=function(e){
+      e = e || window.event;
+      var t=e.srcElement || e.target;
+      var tag=t.tagName;
+      if (e && tag==='HTML' || tag==='INPUT' || tag==='TEXTAREA' || tag==='BUTTON' || tag==='SELECT' || tag==='OPTION' || tag==='EMBED' || tag==='OBJECT') { return; }
+      if (e.type==='keydown' || e.type=='keyup') {
+       // keyboard event : only block ctrl-A, ctrl-a, ctrl-C, ctrl-c, meta-A, meta-a, meta-C, meta-c
+       if ((e.ctrlKey || e.metaKey) && (e.keyCode == 65 || e.keyCode == 97 || e.keyCode == 67 || e.keyCode == 99)) { return cancel(e); }
+      } else if(e.type == "contextmenu"){
+       alert('무단복사를 막기 위해 마우스 드래그 금지가 설정되어 있습니다');
+       return cancel(e);
+      } else {
+       return cancel(e);
+      }
+     }
+     var addEvent = function(el, type, fn){
+         if (window.addEventListener) {
+             el.addEventListener(type, fn, false);
+         }
+         else if (window.attachEvent) {
+             el.attachEvent('on' + type, fn);
+         }
+         else {
+             el['on' + type] = fn;
+         }
+     }
+     var addBlockEvent = function(){
+      addEvent(document.body,'keydown',block);
+      addEvent(document.body,'keyup',block);
+      addEvent(document.body,'mouseup',block);
+      addEvent(document.body,'mousedown',block);
+      addEvent(document.body,'dragstart',block);
+      addEvent(document.body,'selectstart',block);
+      addEvent(document.body,'copy',block);
+      addEvent(document.body,'contextmenu', block);
+     }
+     addEvent(window,'load',addBlockEvent);
+    })();
+    //]]>
+    </script>
 
 </head>
 <body class="paged archive-template">
@@ -146,7 +199,7 @@
                 <div class="author-meta">
                     
                     <div class="author-stats">
-                        31 posts <span class="bull">&bull;</span>
+                        37 posts <span class="bull">&bull;</span>
                     </div>
                     
                         <a class="social-link social-link-wb" href="https://fromis9.kr" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.5 11.957c0 6.375-5.163 11.544-11.532 11.544C5.599 23.5.5 18.125.5 11.75.5 5.542 5.37.758 11.505.511l.5-.011C18.374.5 23.5 5.582 23.5 11.957zM11.505.511c-6 6.5-6 14.98 0 22.98m1-22.98c6 6.5 6 14.977 0 22.977M2 17.479h20.063m-19.657-12h19.062m-20.968 6h22.938" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/></svg>
@@ -177,6 +230,330 @@
         <div class="post-feed">
             <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
             
+    <article class="post-card author-template">
+        
+            <a class="post-card-image-link" href="/naver-post-jk-behind-%EB%82%98%EA%B2%BD">
+                <div class="post-card-image" style="background-image: url(https://post-phinf.pstatic.net/MjAxODA2MDdfNDMg/MDAxNTI4MzgyNzcwNjcw.fi7iQeSozPminNQ1UdoG5c-Fy0JDOO6UWPdR_q_iOt8g.fD3MdHrWaOwU-HCCxq4CyrZpJ9r-lt_TTO6_FwUADa0g.JPEG/30.jpg?type=w1200)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/naver-post-jk-behind-%EB%82%98%EA%B2%BD">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">나경</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Photo</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">프로미스나인 자켓촬영 Behind (나경)</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>프로미스나인 네이버 포스트 - 프롬이들의 자켓 촬영현장 비하인드 공개! (이나경)
+
+
+
+
+
+
+
+Post from
+
+  Fromis_9 Naver Post
+
+</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/imreplay/">imreplay</a>
+                        </span>
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card author-template">
+        
+            <a class="post-card-image-link" href="/naver-post-jk-behind-%EC%83%88%EB%A1%AC">
+                <div class="post-card-image" style="background-image: url(https://post-phinf.pstatic.net/MjAxODA2MDdfMjQ3/MDAxNTI4MzgyMzM5MTE0.XWG3ljJ9Q686-XKsZnY6ZkAZPqRCoAwXOn7Hm5DzclAg.0GJ2tGALq4VPQev7ckZJOIeTbS8VVNwDGnHdHNQ4cOEg.JPEG/18.jpg?type=w1200)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/naver-post-jk-behind-%EC%83%88%EB%A1%AC">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">새롬</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Photo</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">프로미스나인 자켓촬영 Behind (새롬)</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>프로미스나인 네이버 포스트 - 프롬이들의 자켓 촬영현장 비하인드 공개! (이새롬)
+
+
+
+
+
+
+
+Post from
+
+  Fromis_9 Naver Post
+
+</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/imreplay/">imreplay</a>
+                        </span>
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card author-template">
+        
+            <a class="post-card-image-link" href="/naver-post-jk-behind-%EC%84%9C%EC%97%B0">
+                <div class="post-card-image" style="background-image: url(https://post-phinf.pstatic.net/MjAxODA2MDdfMjYg/MDAxNTI4MzgxOTQ3NTU0._6XwScFDoSo8ZY9keg8mELjghy5hjEXEQeiVLhyYiaog.4O7zw21ni5yFXS8uEXHGkdX3TNjfLhLGTFdXS5DLmQ0g.JPEG/6.jpg?type=w1200)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/naver-post-jk-behind-%EC%84%9C%EC%97%B0">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">서연</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Photo</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">프로미스나인 자켓촬영 Behind (서연)</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>프로미스나인 네이버 포스트 - 프롬이들의 자켓 촬영현장 비하인드 공개! (이서연)
+
+
+
+
+
+
+
+Post from
+
+  Fromis_9 Naver Post
+
+</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/imreplay/">imreplay</a>
+                        </span>
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card author-template">
+        
+            <a class="post-card-image-link" href="/naver-post-jk-behind-%EC%A7%80%EC%84%A0">
+                <div class="post-card-image" style="background-image: url(https://post-phinf.pstatic.net/MjAxODA2MDdfMjUy/MDAxNTI4MzgyMTM4OTEy.apmjviVDc_y63tJr1YWRaaJBkwph75KK-AOkU9wRVzog.oxAXPbMs6iWTXyAucSunt-bND0vEuLUhGSjIwTw39y0g.JPEG/10.jpg?type=w1200)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/naver-post-jk-behind-%EC%A7%80%EC%84%A0">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">지선</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Photo</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">프로미스나인 자켓촬영 Behind (지선)</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>프로미스나인 네이버 포스트 - 프롬이들의 자켓 촬영현장 비하인드 공개! (노지선)
+
+
+
+
+
+
+
+Post from
+
+  Fromis_9 Naver Post
+
+</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/imreplay/">imreplay</a>
+                        </span>
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card author-template">
+        
+            <a class="post-card-image-link" href="/naver-post-jk-behind-%EC%A7%80%EC%9B%90">
+                <div class="post-card-image" style="background-image: url(https://post-phinf.pstatic.net/MjAxODA2MDdfNzIg/MDAxNTI4MzgyMjc5MjQz.FRC2_68pkBHbFttBM9Q9A_7ZLqpTbDkHie2sYDofgxsg.KhY9XkJ4b0Y7824V7WKyIyZ1PM53HNnaFMNKuONTFIUg.JPEG/14.jpg?type=w1200)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/naver-post-jk-behind-%EC%A7%80%EC%9B%90">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">지원</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Photo</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">프로미스나인 자켓촬영 Behind (지원)</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>프로미스나인 네이버 포스트 - 프롬이들의 자켓 촬영현장 비하인드 공개! (박지원)
+
+
+
+
+
+
+
+Post from
+
+  Fromis_9 Naver Post
+
+</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/imreplay/">imreplay</a>
+                        </span>
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card author-template">
+        
+            <a class="post-card-image-link" href="/naver-post-jk-behind-%EC%A7%80%ED%97%8C">
+                <div class="post-card-image" style="background-image: url(https://post-phinf.pstatic.net/MjAxODA2MDdfMTAx/MDAxNTI4MzgxNjMwNjA3.JJNdMb_JQCZE4fVhnbsVsl6uVBt6j1xDfiIu_bRKPukg.FQYwgyvtbZWxXe8Qce1phfH9WD4VwJZiCM9BvUvscYIg.JPEG/2.jpg?type=w1200)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/naver-post-jk-behind-%EC%A7%80%ED%97%8C">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">지헌</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Photo</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">프로미스나인 자켓촬영 Behind (지헌)</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>프로미스나인 네이버 포스트 - 프롬이들의 자켓 촬영현장 비하인드 공개! (백지헌)
+
+
+
+
+
+
+
+Post from
+
+  Fromis_9 Naver Post
+
+</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/imreplay/">imreplay</a>
+                        </span>
+                    
+                
+            </footer>
+        </div>
+    </article>
+
     <article class="post-card author-template">
         
             <a class="post-card-image-link" href="/naver-post-jk-behind-%EC%B1%84%EC%98%81">
@@ -357,275 +734,6 @@ Youtube 에서 시청하기
                     <p>뮤직뱅크 Music Bank - 두근두근(DKDK)-fromis_9.20180608
 
 &lt;iframe width=”560” height=”315”src=”https://www.youtube.com/embed/tp2F_AnORQ4?rel=0” frameborder=”0” allow=”autoplay; encrypted-media” allowfullscreen&gt;&lt;/iframe&gt;
-
-Youtube 에서 시청하기
-</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/imreplay/">imreplay</a>
-                        </span>
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card author-template">
-        
-            <a class="post-card-image-link" href="/DKDK_MPD">
-                <div class="post-card-image" style="background-image: url(https://img.youtube.com/vi/qXdX2AOMZHc/sddefault.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/DKDK_MPD">
-                <header class="post-card-header">
-                    
-                        
-                            
-                               <span class="post-card-tags">Video</span>
-                            
-                        
-                            
-                                <span class="post-card-tags">Mpd</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">MPD직캠 Fromis_9 - 두근두근(DKDK)</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>[MPD직캠] 프로미스나인 직캠 4K ‘두근두근(DKDK)’ (fromis_9 FanCam)
-@MCOUNTDOWN_2018.6.7
-
-
-
-Youtube에서 시청하기
-</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/imreplay/">imreplay</a>
-                        </span>
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card author-template">
-        
-            <a class="post-card-image-link" href="/%EC%97%A0%EC%B9%B4-%EB%85%B8%EC%A7%80%EC%84%A0">
-                <div class="post-card-image" style="background-image: url(https://img.youtube.com/vi/GrAq0uI2Uto/sddefault.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/%EC%97%A0%EC%B9%B4-%EB%85%B8%EC%A7%80%EC%84%A0">
-                <header class="post-card-header">
-                    
-                        
-                            
-                               <span class="post-card-tags">Video</span>
-                            
-                        
-                            
-                                <span class="post-card-tags">Fancam</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">M-COUNTDOWN fromis_9-노지선</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>7일 서울 마포구 CJ E&amp;M CENTER  Mnet ‘엠카운트다운’에서 프로미스나인(fromis_9) 노지선
-
-
-
-퓨리 Youtube 에서 시청하기
-</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/imreplay/">imreplay</a>
-                        </span>
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card author-template">
-        
-            <a class="post-card-image-link" href="/M-COUNTDOWN-22CENTURY-GIRL">
-                <div class="post-card-image" style="background-image: url(https://img.youtube.com/vi/Nj1PgrqD7Z4/sddefault.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/M-COUNTDOWN-22CENTURY-GIRL">
-                <header class="post-card-header">
-                    
-                        
-                            
-                               <span class="post-card-tags">Video</span>
-                            
-                        
-                            
-                                <span class="post-card-tags">M-countdown</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Comeback Stage | M COUNTDOWN 180607 EP.573</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>fromis_9 - 22CENTURY GIRL
-
-
-
-Youtube 에서 시청하기
-</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/imreplay/">imreplay</a>
-                        </span>
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card author-template">
-        
-            <a class="post-card-image-link" href="/DKDK-Cheer-up">
-                <div class="post-card-image" style="background-image: url(https://img.youtube.com/vi/sUgKYUjgu4U/sddefault.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/DKDK-Cheer-up">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Video</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">fromis_9 - 두근두근(DKDK) 응원법</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>
-
-Youtube 에서 시청하기
-</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/imreplay/">imreplay</a>
-                        </span>
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card author-template">
-        
-            <a class="post-card-image-link" href="/DKDK">
-                <div class="post-card-image" style="background-image: url(https://img.youtube.com/vi/B3KuJqe3Epg/sddefault.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/DKDK">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Video</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Fromis_9 - 두근두근(DKDK) MV</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>프로미스나인 (fromis_9) - 두근두근(DKDK) MV
-
-
-
-Youtube에서 시청하기
-</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/imreplay/">imreplay</a>
-                        </span>
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card author-template">
-        
-            <a class="post-card-image-link" href="/DKDK_cooking_live">
-                <div class="post-card-image" style="background-image: url(https://img.youtube.com/vi/4_F5fCUeCyQ/sddefault.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/DKDK_cooking_live">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Video</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">쿠킹라이브 Fromis_9 - 두근두근(DKDK)</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>프로미스나인 fromis_9 - 두근두근(DKDK) [쿠킹라이브]
-
-
 
 Youtube 에서 시청하기
 </p>

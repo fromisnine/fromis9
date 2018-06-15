@@ -128,6 +128,59 @@ Post from
     <meta name="generator" content="Jekyll 3.6.2" />
     <link rel="alternate" type="application/rss+xml" title="프로미스나인 자켓촬영 Behind (나경)" href="/feed.xml" />
 
+    <script type="text/javascript">//<![CDATA[
+    (function(){
+     var cancel=function(e){
+      if (window.event) {
+       window.event.cancelBubble = true;
+       window.event.returnValue = false;
+      }
+      if (e && e.stopPropagation && e.preventDefault) {
+       e.stopPropagation();
+       e.preventDefault();
+      }
+      return false;
+     };
+     var block=function(e){
+      e = e || window.event;
+      var t=e.srcElement || e.target;
+      var tag=t.tagName;
+      if (e && tag==='HTML' || tag==='INPUT' || tag==='TEXTAREA' || tag==='BUTTON' || tag==='SELECT' || tag==='OPTION' || tag==='EMBED' || tag==='OBJECT') { return; }
+      if (e.type==='keydown' || e.type=='keyup') {
+       // keyboard event : only block ctrl-A, ctrl-a, ctrl-C, ctrl-c, meta-A, meta-a, meta-C, meta-c
+       if ((e.ctrlKey || e.metaKey) && (e.keyCode == 65 || e.keyCode == 97 || e.keyCode == 67 || e.keyCode == 99)) { return cancel(e); }
+      } else if(e.type == "contextmenu"){
+       alert('무단복사를 막기 위해 마우스 드래그 금지가 설정되어 있습니다');
+       return cancel(e);
+      } else {
+       return cancel(e);
+      }
+     }
+     var addEvent = function(el, type, fn){
+         if (window.addEventListener) {
+             el.addEventListener(type, fn, false);
+         }
+         else if (window.attachEvent) {
+             el.attachEvent('on' + type, fn);
+         }
+         else {
+             el['on' + type] = fn;
+         }
+     }
+     var addBlockEvent = function(){
+      addEvent(document.body,'keydown',block);
+      addEvent(document.body,'keyup',block);
+      addEvent(document.body,'mouseup',block);
+      addEvent(document.body,'mousedown',block);
+      addEvent(document.body,'dragstart',block);
+      addEvent(document.body,'selectstart',block);
+      addEvent(document.body,'copy',block);
+      addEvent(document.body,'contextmenu', block);
+     }
+     addEvent(window,'load',addBlockEvent);
+    })();
+    //]]>
+    </script>
 
 </head>
 <body class="post-template">
@@ -314,6 +367,117 @@ into the {body} of the default.hbs template -->
                 
                 
                 
+                
+                    <article class="read-next-card"
+                        
+                            style="background-image: url(/assets/images/blog-cover.jpg)"
+                        
+                    >
+                        <header class="read-next-card-header">
+                            <small class="read-next-card-header-sitetitle">&mdash; Fromis_9 Fan Page &mdash;</small>
+                            
+                                <h3 class="read-next-card-header-title"><a href="/tag/나경/">나경</a></h3>
+                            
+                        </header>
+                        <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+</div>
+                        <div class="read-next-card-content">
+                            <ul>
+                                
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/linking-%EB%AF%B8%EB%8B%88%ED%8C%AC%EB%AF%B8%ED%8C%85">twitter photo -  180612 미니 팬미팅 나경</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                            </ul>
+                        </div>
+                        <footer class="read-next-card-footer">
+                            <a href="/tag/나경/">
+                                
+                                    See all 1 posts  →
+                                
+                            </a>
+                        </footer>
+                    </article>
                 
             
 

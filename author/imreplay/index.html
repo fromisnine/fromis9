@@ -86,6 +86,59 @@
     <meta name="generator" content="Jekyll 3.6.2" />
     <link rel="alternate" type="application/rss+xml" title="Author Page" href="/feed.xml" />
 
+    <script type="text/javascript">//<![CDATA[
+    (function(){
+     var cancel=function(e){
+      if (window.event) {
+       window.event.cancelBubble = true;
+       window.event.returnValue = false;
+      }
+      if (e && e.stopPropagation && e.preventDefault) {
+       e.stopPropagation();
+       e.preventDefault();
+      }
+      return false;
+     };
+     var block=function(e){
+      e = e || window.event;
+      var t=e.srcElement || e.target;
+      var tag=t.tagName;
+      if (e && tag==='HTML' || tag==='INPUT' || tag==='TEXTAREA' || tag==='BUTTON' || tag==='SELECT' || tag==='OPTION' || tag==='EMBED' || tag==='OBJECT') { return; }
+      if (e.type==='keydown' || e.type=='keyup') {
+       // keyboard event : only block ctrl-A, ctrl-a, ctrl-C, ctrl-c, meta-A, meta-a, meta-C, meta-c
+       if ((e.ctrlKey || e.metaKey) && (e.keyCode == 65 || e.keyCode == 97 || e.keyCode == 67 || e.keyCode == 99)) { return cancel(e); }
+      } else if(e.type == "contextmenu"){
+       alert('무단복사를 막기 위해 마우스 드래그 금지가 설정되어 있습니다');
+       return cancel(e);
+      } else {
+       return cancel(e);
+      }
+     }
+     var addEvent = function(el, type, fn){
+         if (window.addEventListener) {
+             el.addEventListener(type, fn, false);
+         }
+         else if (window.attachEvent) {
+             el.attachEvent('on' + type, fn);
+         }
+         else {
+             el['on' + type] = fn;
+         }
+     }
+     var addBlockEvent = function(){
+      addEvent(document.body,'keydown',block);
+      addEvent(document.body,'keyup',block);
+      addEvent(document.body,'mouseup',block);
+      addEvent(document.body,'mousedown',block);
+      addEvent(document.body,'dragstart',block);
+      addEvent(document.body,'selectstart',block);
+      addEvent(document.body,'copy',block);
+      addEvent(document.body,'contextmenu', block);
+     }
+     addEvent(window,'load',addBlockEvent);
+    })();
+    //]]>
+    </script>
 
 </head>
 <body class="author-template">
@@ -146,7 +199,7 @@
                 <div class="author-meta">
                     
                     <div class="author-stats">
-                        31 posts <span class="bull">&bull;</span>
+                        37 posts <span class="bull">&bull;</span>
                     </div>
                     
                         <a class="social-link social-link-wb" href="https://fromis9.kr" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.5 11.957c0 6.375-5.163 11.544-11.532 11.544C5.599 23.5.5 18.125.5 11.75.5 5.542 5.37.758 11.505.511l.5-.011C18.374.5 23.5 5.582 23.5 11.957zM11.505.511c-6 6.5-6 14.98 0 22.98m1-22.98c6 6.5 6 14.977 0 22.977M2 17.479h20.063m-19.657-12h19.062m-20.968 6h22.938" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/></svg>
@@ -177,6 +230,364 @@
         <div class="post-feed">
             <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
             
+    <article class="post-card author-template">
+        
+            <a class="post-card-image-link" href="/BeautifulMyOcean">
+                <div class="post-card-image" style="background-image: url(https://pbs.twimg.com/media/Dfg3vYlU0AAS4AU.jpg:large)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/BeautifulMyOcean">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">Photo</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Beautifulmyocean</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">twitter photo -  180612 미니 팬미팅 서연</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>Beautiful My Ocean photo on twitter
+
+
+  180612 미니 팬미팅 서연
+
+
+
+
+Photo by
+
+  Beautiful My Ocean
+로고크롭, 2차가공 금지
+
+</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/imreplay/">imreplay</a>
+                        </span>
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card author-template">
+        
+            <a class="post-card-image-link" href="/linking-%EB%AF%B8%EB%8B%88%ED%8C%AC%EB%AF%B8%ED%8C%85">
+                <div class="post-card-image" style="background-image: url(https://pbs.twimg.com/media/DffvPr_WsAAM12S.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/linking-%EB%AF%B8%EB%8B%88%ED%8C%AC%EB%AF%B8%ED%8C%85">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">나경</span>
+                            
+                        
+                            
+                               <span class="post-card-tags">Photo</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Liki`ng</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">twitter photo -  180612 미니 팬미팅 나경</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>LIKI`NG photo on twitter- 180612 미니 팬미팅 나경
+
+
+  180612 미니팬미팅 나경
+
+
+
+
+
+
+Photo by
+
+  [LIKI`NG]https://twitter.com/liking61)
+로고크롭, 2차가공 금지
+
+</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/imreplay/">imreplay</a>
+                        </span>
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card author-template">
+        
+            <a class="post-card-image-link" href="/love-in-love-photo">
+                <div class="post-card-image" style="background-image: url(https://pbs.twimg.com/media/Dff6ylIV4AAHzdA.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/love-in-love-photo">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">새롬</span>
+                            
+                        
+                            
+                               <span class="post-card-tags">Photo</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Love-in-love</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">twitter photo -  180612 미니 팬미팅 새롬</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>love in love photo on twitter- 180612 미니 팬미팅 새롬
+
+
+  180612 미니팬미팅  새롬
+
+
+
+
+
+Photo by
+
+  love in love
+로고 크롭, 2차가공 금지
+
+</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/imreplay/">imreplay</a>
+                        </span>
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card author-template">
+        
+            <a class="post-card-image-link" href="/love-in-love-photo2">
+                <div class="post-card-image" style="background-image: url(https://pbs.twimg.com/media/DffkzW8V4AEl5hR.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/love-in-love-photo2">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">새롬</span>
+                            
+                        
+                            
+                               <span class="post-card-tags">Photo</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Love-in-love</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">twitter photo -  180612 미니 팬미팅 새롬-2</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>love in love photo on twitter- 180612 미니 팬미팅 새롬
+
+
+  180612 미니팬미팅  새롬
+
+
+
+
+
+Photo by
+
+
+  love in love
+로고 크롭, 2차가공 금지
+
+</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/imreplay/">imreplay</a>
+                        </span>
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card author-template">
+        
+            <a class="post-card-image-link" href="/%EB%AF%B8%EB%A3%A8%EB%82%98%EB%AC%B4-twitter">
+                <div class="post-card-image" style="background-image: url(https://pbs.twimg.com/media/DffN8PxU0AMnYLP.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/%EB%AF%B8%EB%A3%A8%EB%82%98%EB%AC%B4-twitter">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">채영</span>
+                            
+                        
+                            
+                               <span class="post-card-tags">Photo</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">미루나무</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">twitter photo -  180612 미니 팬미팅 채영</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>미루나무 photo on twitter- 180612 미니 팬미팅 채영
+
+
+  180612 미니 팬미팅 채영
+
+
+
+
+
+Photo by
+
+  미루나무
+로고 크롭, 2차가공 금지
+
+</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/imreplay/">imreplay</a>
+                        </span>
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card author-template">
+        
+            <a class="post-card-image-link" href="/%EB%AF%B8%EB%A3%A8%EB%82%98%EB%AC%B4-twitter2">
+                <div class="post-card-image" style="background-image: url(https://pbs.twimg.com/media/DfeX25eVMAENWIq.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/%EB%AF%B8%EB%A3%A8%EB%82%98%EB%AC%B4-twitter2">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">채영</span>
+                            
+                        
+                            
+                               <span class="post-card-tags">Photo</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">미루나무</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">twitter photo -  180612 미니 팬미팅 채영-2</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>미루나무 photo on twitter- 180612 미니 팬미팅 채영
+
+
+  180612 미니 팬미팅 채영
+
+
+
+
+
+
+Photo by
+
+  미루나무
+로고 크롭, 2차가공 금지
+
+</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/imreplay/">imreplay</a>
+                        </span>
+                    
+                
+            </footer>
+        </div>
+    </article>
+
     <article class="post-card author-template">
         
             <a class="post-card-image-link" href="/DKDK-Choreography-ver">
@@ -343,265 +754,6 @@ Youtube 에서 시청하기
 
 
 퓨리 Youtube 에서 시청하기
-</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/imreplay/">imreplay</a>
-                        </span>
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card author-template">
-        
-            <a class="post-card-image-link" href="/%EB%8D%94%EC%87%BC-%EB%AF%B8%EB%8B%88%ED%8C%AC%EB%AF%B8%ED%8C%85-%EC%86%A1%ED%95%98%EC%98%81">
-                <div class="post-card-image" style="background-image: url(https://img.youtube.com/vi/F1U8AMfdAFk/sddefault.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/%EB%8D%94%EC%87%BC-%EB%AF%B8%EB%8B%88%ED%8C%AC%EB%AF%B8%ED%8C%85-%EC%86%A1%ED%95%98%EC%98%81">
-                <header class="post-card-header">
-                    
-                        
-                            
-                               <span class="post-card-tags">Video</span>
-                            
-                        
-                            
-                                <span class="post-card-tags">Fancam</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">The-Show 미니 팬미팅-송하영</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>12일 서울 마포구 상암 SBS프리즘타워 앞 광장 SBS MTV 더쇼 미니팬미팅에서 프로미스나인(fromis_9) 송하영
-
-
-
-퓨리 Youtube 에서 시청하기
-</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/imreplay/">imreplay</a>
-                        </span>
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card author-template">
-        
-            <a class="post-card-image-link" href="/%EB%8D%94%EC%87%BC-%EB%AF%B8%EB%8B%88%ED%8C%AC%EB%AF%B8%ED%8C%85-%EC%9D%B4%EB%82%98%EA%B2%BD">
-                <div class="post-card-image" style="background-image: url(https://img.youtube.com/vi/oVWutdFhDBQ/sddefault.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/%EB%8D%94%EC%87%BC-%EB%AF%B8%EB%8B%88%ED%8C%AC%EB%AF%B8%ED%8C%85-%EC%9D%B4%EB%82%98%EA%B2%BD">
-                <header class="post-card-header">
-                    
-                        
-                            
-                               <span class="post-card-tags">Video</span>
-                            
-                        
-                            
-                                <span class="post-card-tags">Fancam</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">The-Show 미니 팬미팅-이나경</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>12일 서울 마포구 상암 SBS프리즘타워 앞 광장 SBS MTV 더쇼 미니팬미팅에서 프로미스나인(fromis_9) 이나경
-
-
-
-퓨리 Youtube 에서 시청하기
-</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/imreplay/">imreplay</a>
-                        </span>
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card author-template">
-        
-            <a class="post-card-image-link" href="/theshow-22%EC%84%B8%EA%B8%B0-%EC%86%8C%EB%85%80">
-                <div class="post-card-image" style="background-image: url(https://img.youtube.com/vi/_1xcq8JbXyI/sddefault.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/theshow-22%EC%84%B8%EA%B8%B0-%EC%86%8C%EB%85%80">
-                <header class="post-card-header">
-                    
-                        
-                            
-                               <span class="post-card-tags">Video</span>
-                            
-                        
-                            
-                                <span class="post-card-tags">The-show</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">The-Show  fromis_9-22세기 소녀(Comeback Stage)</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>
-
-Youtube 에서 시청하기
-</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/imreplay/">imreplay</a>
-                        </span>
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card author-template">
-        
-            <a class="post-card-image-link" href="/theshow-DKDK">
-                <div class="post-card-image" style="background-image: url(https://img.youtube.com/vi/ZHLU1Oi_Rac/hqdefault.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/theshow-DKDK">
-                <header class="post-card-header">
-                    
-                        
-                            
-                               <span class="post-card-tags">Video</span>
-                            
-                        
-                            
-                                <span class="post-card-tags">The-show</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">The-Show  fromis_9-두근두근(Comeback Stage)</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>
-
-Youtube 에서 시청하기
-</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/imreplay/">imreplay</a>
-                        </span>
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card author-template">
-        
-            <a class="post-card-image-link" href="/DKDK_album">
-                <div class="post-card-image" style="background-image: url(/assets/images/dkdk_album_cover.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/DKDK_album">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Notice</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">프로미스나인 To.Day - 앨범 소개</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>프로미스나인 To.Day - 앨범 소개 ‘프로미스나인’, 설레는 그 날을 담은 두 번째 미니 앨범 [To. Day] 발매! ‘프로미스나인’이 싱그러운 초여름 “달콤청량돌”로 돌아왔다! ‘당신의 아이돌’로 성장하겠다는 당찬 포부와 함께 국내 최초 오프라인 프로모션 ‘약속회’로</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/imreplay/">imreplay</a>
-                        </span>
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card author-template no-image">
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/2nd-MD">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Notice</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">To. Day 약속회 OFFICIAL MD 안내</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>fromis_9 The 2nd Mini Album ＜To. Day＞약속회 OFFICIAL MD 안내
-
-
 </p>
                 </section>
             </a>

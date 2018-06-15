@@ -86,6 +86,59 @@
     <meta name="generator" content="Jekyll 3.6.2" />
     <link rel="alternate" type="application/rss+xml" title="Tag Page" href="/feed.xml" />
 
+    <script type="text/javascript">//<![CDATA[
+    (function(){
+     var cancel=function(e){
+      if (window.event) {
+       window.event.cancelBubble = true;
+       window.event.returnValue = false;
+      }
+      if (e && e.stopPropagation && e.preventDefault) {
+       e.stopPropagation();
+       e.preventDefault();
+      }
+      return false;
+     };
+     var block=function(e){
+      e = e || window.event;
+      var t=e.srcElement || e.target;
+      var tag=t.tagName;
+      if (e && tag==='HTML' || tag==='INPUT' || tag==='TEXTAREA' || tag==='BUTTON' || tag==='SELECT' || tag==='OPTION' || tag==='EMBED' || tag==='OBJECT') { return; }
+      if (e.type==='keydown' || e.type=='keyup') {
+       // keyboard event : only block ctrl-A, ctrl-a, ctrl-C, ctrl-c, meta-A, meta-a, meta-C, meta-c
+       if ((e.ctrlKey || e.metaKey) && (e.keyCode == 65 || e.keyCode == 97 || e.keyCode == 67 || e.keyCode == 99)) { return cancel(e); }
+      } else if(e.type == "contextmenu"){
+       alert('무단복사를 막기 위해 마우스 드래그 금지가 설정되어 있습니다');
+       return cancel(e);
+      } else {
+       return cancel(e);
+      }
+     }
+     var addEvent = function(el, type, fn){
+         if (window.addEventListener) {
+             el.addEventListener(type, fn, false);
+         }
+         else if (window.attachEvent) {
+             el.attachEvent('on' + type, fn);
+         }
+         else {
+             el['on' + type] = fn;
+         }
+     }
+     var addBlockEvent = function(){
+      addEvent(document.body,'keydown',block);
+      addEvent(document.body,'keyup',block);
+      addEvent(document.body,'mouseup',block);
+      addEvent(document.body,'mousedown',block);
+      addEvent(document.body,'dragstart',block);
+      addEvent(document.body,'selectstart',block);
+      addEvent(document.body,'copy',block);
+      addEvent(document.body,'contextmenu', block);
+     }
+     addEvent(window,'load',addBlockEvent);
+    })();
+    //]]>
+    </script>
 
 </head>
 <body class="tag-template">
@@ -140,7 +193,7 @@
             <h1 class="site-title">Photo</h1>
             <h2 class="site-description">
                 
-    			    A collection of 8 posts
+    			    A collection of 14 posts
                 
             </h2>
         </div>
@@ -154,6 +207,364 @@
         <div class="post-feed">
             <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
             
+    <article class="post-card tag-template">
+        
+            <a class="post-card-image-link" href="/%EB%AF%B8%EB%A3%A8%EB%82%98%EB%AC%B4-twitter2">
+                <div class="post-card-image" style="background-image: url(https://pbs.twimg.com/media/DfeX25eVMAENWIq.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/%EB%AF%B8%EB%A3%A8%EB%82%98%EB%AC%B4-twitter2">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">채영</span>
+                            
+                        
+                            
+                               <span class="post-card-tags">Photo</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">미루나무</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">twitter photo -  180612 미니 팬미팅 채영-2</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>미루나무 photo on twitter- 180612 미니 팬미팅 채영
+
+
+  180612 미니 팬미팅 채영
+
+
+
+
+
+
+Photo by
+
+  미루나무
+로고 크롭, 2차가공 금지
+
+</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/imreplay/">imreplay</a>
+                        </span>
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card tag-template">
+        
+            <a class="post-card-image-link" href="/%EB%AF%B8%EB%A3%A8%EB%82%98%EB%AC%B4-twitter">
+                <div class="post-card-image" style="background-image: url(https://pbs.twimg.com/media/DffN8PxU0AMnYLP.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/%EB%AF%B8%EB%A3%A8%EB%82%98%EB%AC%B4-twitter">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">채영</span>
+                            
+                        
+                            
+                               <span class="post-card-tags">Photo</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">미루나무</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">twitter photo -  180612 미니 팬미팅 채영</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>미루나무 photo on twitter- 180612 미니 팬미팅 채영
+
+
+  180612 미니 팬미팅 채영
+
+
+
+
+
+Photo by
+
+  미루나무
+로고 크롭, 2차가공 금지
+
+</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/imreplay/">imreplay</a>
+                        </span>
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card tag-template">
+        
+            <a class="post-card-image-link" href="/love-in-love-photo2">
+                <div class="post-card-image" style="background-image: url(https://pbs.twimg.com/media/DffkzW8V4AEl5hR.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/love-in-love-photo2">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">새롬</span>
+                            
+                        
+                            
+                               <span class="post-card-tags">Photo</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Love-in-love</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">twitter photo -  180612 미니 팬미팅 새롬-2</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>love in love photo on twitter- 180612 미니 팬미팅 새롬
+
+
+  180612 미니팬미팅  새롬
+
+
+
+
+
+Photo by
+
+
+  love in love
+로고 크롭, 2차가공 금지
+
+</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/imreplay/">imreplay</a>
+                        </span>
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card tag-template">
+        
+            <a class="post-card-image-link" href="/love-in-love-photo">
+                <div class="post-card-image" style="background-image: url(https://pbs.twimg.com/media/Dff6ylIV4AAHzdA.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/love-in-love-photo">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">새롬</span>
+                            
+                        
+                            
+                               <span class="post-card-tags">Photo</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Love-in-love</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">twitter photo -  180612 미니 팬미팅 새롬</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>love in love photo on twitter- 180612 미니 팬미팅 새롬
+
+
+  180612 미니팬미팅  새롬
+
+
+
+
+
+Photo by
+
+  love in love
+로고 크롭, 2차가공 금지
+
+</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/imreplay/">imreplay</a>
+                        </span>
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card tag-template">
+        
+            <a class="post-card-image-link" href="/linking-%EB%AF%B8%EB%8B%88%ED%8C%AC%EB%AF%B8%ED%8C%85">
+                <div class="post-card-image" style="background-image: url(https://pbs.twimg.com/media/DffvPr_WsAAM12S.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/linking-%EB%AF%B8%EB%8B%88%ED%8C%AC%EB%AF%B8%ED%8C%85">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">나경</span>
+                            
+                        
+                            
+                               <span class="post-card-tags">Photo</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Liki`ng</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">twitter photo -  180612 미니 팬미팅 나경</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>LIKI`NG photo on twitter- 180612 미니 팬미팅 나경
+
+
+  180612 미니팬미팅 나경
+
+
+
+
+
+
+Photo by
+
+  [LIKI`NG]https://twitter.com/liking61)
+로고크롭, 2차가공 금지
+
+</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/imreplay/">imreplay</a>
+                        </span>
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card tag-template">
+        
+            <a class="post-card-image-link" href="/BeautifulMyOcean">
+                <div class="post-card-image" style="background-image: url(https://pbs.twimg.com/media/Dfg3vYlU0AAS4AU.jpg:large)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/BeautifulMyOcean">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">Photo</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Beautifulmyocean</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">twitter photo -  180612 미니 팬미팅 서연</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>Beautiful My Ocean photo on twitter
+
+
+  180612 미니 팬미팅 서연
+
+
+
+
+Photo by
+
+  Beautiful My Ocean
+로고크롭, 2차가공 금지
+
+</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/imreplay/">imreplay</a>
+                        </span>
+                    
+                
+            </footer>
+        </div>
+    </article>
+
     <article class="post-card tag-template">
         
             <a class="post-card-image-link" href="/naver-post-jk-behind-%ED%95%98%EC%98%81">
@@ -370,222 +781,6 @@ Post from
         </div>
     </article>
 
-    <article class="post-card tag-template">
-        
-            <a class="post-card-image-link" href="/naver-post-jk-behind-%EC%A7%80%EC%84%A0">
-                <div class="post-card-image" style="background-image: url(https://post-phinf.pstatic.net/MjAxODA2MDdfMjUy/MDAxNTI4MzgyMTM4OTEy.apmjviVDc_y63tJr1YWRaaJBkwph75KK-AOkU9wRVzog.oxAXPbMs6iWTXyAucSunt-bND0vEuLUhGSjIwTw39y0g.JPEG/10.jpg?type=w1200)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/naver-post-jk-behind-%EC%A7%80%EC%84%A0">
-                <header class="post-card-header">
-                    
-                        
-                            
-                               <span class="post-card-tags">지선</span>
-                            
-                        
-                            
-                                <span class="post-card-tags">Photo</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">프로미스나인 자켓촬영 Behind (지선)</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>프로미스나인 네이버 포스트 - 프롬이들의 자켓 촬영현장 비하인드 공개! (노지선)
-
-
-
-
-
-
-
-Post from
-
-  Fromis_9 Naver Post
-
-</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/imreplay/">imreplay</a>
-                        </span>
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card tag-template">
-        
-            <a class="post-card-image-link" href="/naver-post-jk-behind-%EC%84%9C%EC%97%B0">
-                <div class="post-card-image" style="background-image: url(https://post-phinf.pstatic.net/MjAxODA2MDdfMjYg/MDAxNTI4MzgxOTQ3NTU0._6XwScFDoSo8ZY9keg8mELjghy5hjEXEQeiVLhyYiaog.4O7zw21ni5yFXS8uEXHGkdX3TNjfLhLGTFdXS5DLmQ0g.JPEG/6.jpg?type=w1200)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/naver-post-jk-behind-%EC%84%9C%EC%97%B0">
-                <header class="post-card-header">
-                    
-                        
-                            
-                               <span class="post-card-tags">서연</span>
-                            
-                        
-                            
-                                <span class="post-card-tags">Photo</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">프로미스나인 자켓촬영 Behind (서연)</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>프로미스나인 네이버 포스트 - 프롬이들의 자켓 촬영현장 비하인드 공개! (이서연)
-
-
-
-
-
-
-
-Post from
-
-  Fromis_9 Naver Post
-
-</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/imreplay/">imreplay</a>
-                        </span>
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card tag-template">
-        
-            <a class="post-card-image-link" href="/naver-post-jk-behind-%EC%83%88%EB%A1%AC">
-                <div class="post-card-image" style="background-image: url(https://post-phinf.pstatic.net/MjAxODA2MDdfMjQ3/MDAxNTI4MzgyMzM5MTE0.XWG3ljJ9Q686-XKsZnY6ZkAZPqRCoAwXOn7Hm5DzclAg.0GJ2tGALq4VPQev7ckZJOIeTbS8VVNwDGnHdHNQ4cOEg.JPEG/18.jpg?type=w1200)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/naver-post-jk-behind-%EC%83%88%EB%A1%AC">
-                <header class="post-card-header">
-                    
-                        
-                            
-                               <span class="post-card-tags">새롬</span>
-                            
-                        
-                            
-                                <span class="post-card-tags">Photo</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">프로미스나인 자켓촬영 Behind (새롬)</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>프로미스나인 네이버 포스트 - 프롬이들의 자켓 촬영현장 비하인드 공개! (이새롬)
-
-
-
-
-
-
-
-Post from
-
-  Fromis_9 Naver Post
-
-</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/imreplay/">imreplay</a>
-                        </span>
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card tag-template">
-        
-            <a class="post-card-image-link" href="/naver-post-jk-behind-%EB%82%98%EA%B2%BD">
-                <div class="post-card-image" style="background-image: url(https://post-phinf.pstatic.net/MjAxODA2MDdfNDMg/MDAxNTI4MzgyNzcwNjcw.fi7iQeSozPminNQ1UdoG5c-Fy0JDOO6UWPdR_q_iOt8g.fD3MdHrWaOwU-HCCxq4CyrZpJ9r-lt_TTO6_FwUADa0g.JPEG/30.jpg?type=w1200)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/naver-post-jk-behind-%EB%82%98%EA%B2%BD">
-                <header class="post-card-header">
-                    
-                        
-                            
-                               <span class="post-card-tags">나경</span>
-                            
-                        
-                            
-                                <span class="post-card-tags">Photo</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">프로미스나인 자켓촬영 Behind (나경)</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>프로미스나인 네이버 포스트 - 프롬이들의 자켓 촬영현장 비하인드 공개! (이나경)
-
-
-
-
-
-
-
-Post from
-
-  Fromis_9 Naver Post
-
-</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/blog-icon.png" alt="imreplay" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/imreplay/">imreplay</a>
-                        </span>
-                    
-                
-            </footer>
-        </div>
-    </article>
-
 
         </div>
     </div>
@@ -593,6 +788,17 @@ Post from
 
 
         <!-- Previous/next page links - displayed on every page -->
+        
+            
+                <nav class="pagination" role="pagination">
+    
+    <span class="page-number"> Page 1 of 2 </span>
+    
+        <a class="older-posts" href="/tag/photo/page2/" title="Next Page">Older Posts &raquo;</a>
+    
+</nav>
+
+            
         
 
         <!-- The footer at the very bottom of the screen -->
@@ -671,7 +877,7 @@ Post from
     <!-- Paginator increased to "infinit" in _config.yml -->
     <!-- if paginator.posts  -->
     <!-- <script>
-        var maxPages = parseInt('1');
+        var maxPages = parseInt('2');
     </script>
     <script src="/assets/js/infinitescroll.js"></script> -->
     <!-- /endif -->
