@@ -11,7 +11,7 @@ subclass: 'post page'
 프로미스나인 팬페이지 입니다.
 > Fromis_9 Fan page.
 
-![fromis_cafe](https://scontent-icn1-1.cdninstagram.com/vp/ccca186e46fa67b0ea1c496d75613a44/5BADCF1E/t51.2885-15/s640x640/sh0.08/e35/29402618_1824671504223049_4964527464513536000_n.jpg)
+![fromis_cafe](/assets/images/tag/fromis_9_Official-Photo.jpg)
 
 Member
 
@@ -27,7 +27,7 @@ Member
 | 이나경 | 2000. 06. 01. | 서브보컬 |
 | 백지헌 | 2003. 04. 17. | 서브보컬 |
 
-> from [fromis_9 - 나무위키](https://namu.wiki/w/fromis_9#s-3)
+> by [fromis_9 - 나무위키](https://namu.wiki/w/fromis_9#s-3)
 
 ---
 
