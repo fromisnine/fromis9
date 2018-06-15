@@ -5,7 +5,7 @@ cover: 'http://cmsimg.mnet.com/clipimage/artist/Other/610/000/205/205944.jpg'
 navigation: true
 title: 엠카운트다운 573회 Mnet photo - 박지원 DKDK ver.
 date: 2018-06-12
-tags:  photo
+tags:  지원 photo
 class: post-template
 subclass: 'post tag-photo'
 author: imreplay
