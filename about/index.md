@@ -3,15 +3,46 @@ layout: page
 current: about
 title: About
 navigation: true
-logo: 'assets/images/tag/saerom.jpg'
+logo: 'https://scontent-icn1-1.cdninstagram.com/vp/ccca186e46fa67b0ea1c496d75613a44/5BADCF1E/t51.2885-15/s640x640/sh0.08/e35/29402618_1824671504223049_4964527464513536000_n.jpg'
 class: page-template
 subclass: 'post page'
 ---
 
-현재 페이지 작업 진행중입니다
+프로미스나인 팬페이지 입니다.
+> Fromis_9 Fan page.
 
-> Now This page is under construction
+![fromis_cafe](https://scontent-icn1-1.cdninstagram.com/vp/ccca186e46fa67b0ea1c496d75613a44/5BADCF1E/t51.2885-15/s640x640/sh0.08/e35/29402618_1824671504223049_4964527464513536000_n.jpg)
 
-사진을 안올려서 photo 누르면 에러가 나요ㅠㅠㅠ
+Member
 
-빠른시일내에 작업 끝내도록 하겠습니다!
+| 이름 | 생년월일 | 포지션 |
+| :--------: | :--------: | :--------: |
+| 이새롬 | 1997. 01. 07. | 리더, 서브보컬 |
+| 송하영 | 1997. 09. 29. | 리드보컬, 메인댄서 |
+| 장규리 | 1997. 12. 27. | 리드보컬 |
+| 박지원 | 1998. 03. 20. | 메인보컬 |
+| 노지선 | 1998. 11. 23. | 센터, 서브보컬 |
+| 이서연 | 2000. 01. 22. | 메인래퍼, 서브보컬 |
+| 이채영 | 2000. 05. 14. | 리드래퍼, 메인댄서, 서브보컬 |
+| 이나경 | 2000. 06. 01. | 서브보컬 |
+| 백지헌 | 2003. 04. 17. | 서브보컬 |
+
+> from [fromis_9 - 나무위키](https://namu.wiki/w/fromis_9#s-3)
+
+---
+
+Schedule
+
+06월 프로미스나인 스케줄 (Ver. 18.06.11)
+
+> 06/01 : 나경's DAY  
+06/03 : 복면가왕(**지원**)  
+06/05 : Comeback Show Case  
+06/06 : 주간아이돌  
+06/07 : 엠카운트다운  
+06/08 : 뮤직뱅크  
+06/09 : 음악중심, 이국주의 영스트리트  
+06/12 : 더쇼, 1대 100(**새롬,지선,지헌**)  
+06/24 : KCON 2018 NY  
+
+---
