@@ -5,7 +5,7 @@ cover: 'http://media.fromisnine.com/wp-content/uploads/2018/05/25200604/5.-LEE-S
 navigation: true
 title: To. Day, 콘셉트 포토 (새롬, 하영, 채영, 나경)
 date: 2018-05-25
-tags: photo 지헌 서연 지원 지선
+tags: photo 새롬 하영 채영 
 class: post-template
 subclass: 'post tag-photo'
 author: imreplay
