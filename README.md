@@ -1,112 +1,94 @@
-## Jasper2
+자동 배포 확인용 사이트 -> [travis-ci](https://travis-ci.org/)
 
-[![Build Status](https://travis-ci.org/jekyller/jasper2.svg?branch=master)](https://travis-ci.org/jekyller/jasper2)
-[![Ruby](https://img.shields.io/badge/ruby-2.4.2-blue.svg?style=flat)](http://travis-ci.org/jekyller/jasper2)
-[![Jekyll](https://img.shields.io/badge/jekyll-3.6.2-blue.svg?style=flat)](http://travis-ci.org/jekyller/jasper2)
+# https://fromis9.kr 에 글을 쓰자!
 
-This is a full-featured port of Ghost's default theme [Casper](https://github.com/tryghost/casper)
-*v2.1.9* for [Jekyll](https://jekyllrb.com/) / [GitHub Pages](https://pages.github.com/).
+### 1. 일단 Github.com에 가입한다.
 
-## Live Demo
+가입과정 생략!
 
-[Ghost's Casper](https://demo.ghost.io) // [Jasper2](https://jekyller.github.io/jasper2)
+### 2. https://github.com/fromisnine/fromisnine.github.io 에 들어가서 _post 클릭!
+![1](https://fromis9.kr/img/how_to_post/1.JPG)
+> _posts 에는 페이지의 모든글이 저장되어있다.
 
-![home page](https://raw.githubusercontent.com/jekyller/jasper2/master/assets/screenshot-desktop.jpg)
+### 3. 분류를 선택한다 (사실 막 만들어둔 분류라 새폴더 만드셔도 됩니다!)
 
+* naver post : 프로미스나인 네이버 포스팅 스크랩 용도
+* notice : 프로미스나인 공지사항, MD 판매물품등 공지사항
+* photo : 사진들
+* video : 유튜브, vlive 등 저장 용도
 
-## Features
+![2](https://fromis9.kr/img/how_to_post/2.JPG)
 
-* Out of the box support for multiple authors (via `_data/authors.yml`)
-* Full author information including: picture, bio, website, twitter, facebook, etc.
-* Tag description(s) and personalised covers (via `_data/tags.yml`)
-* Related posts view at the bottom of each post
-* All Ghost default pages: Author page(s), Tag page(s), About page(s), 404, etc.
-* Pagination (infinite scrolling or standard pagination, i.e. posts across multiple pages)
-* Atom Feeds by [Jekyll-feed](https://github.com/jekyll/jekyll-feed)
-* Toggleable subscribe button (requires an external service)
-* Code Syntax Highlight with [highlight.js](https://highlightjs.org/)
-* Support for Google Analytics tracking
-* Support for Disqus comments (not Ghost standard)
+### 4. Create New File 클릭!
+![3](https://fromis9.kr/img/how_to_post/3.JPG)
 
+파일을 직접 만드신 경우 업로드를 해도 무관합니다!
 
-## Getting Started
+> 파일명은 년도-월-일-제목.md 로 해주세요!!  
+예시 : 2018-06-05-프로미스나인-사랑해.md
 
-### Deployment
+###  5. 내용작성
+![4](https://fromis9.kr/img/how_to_post/4.JPG)
+약간 어려울 수도 있는 부분입니다..!
 
-**Important:**  For security reasons, Github does not allow plugins (under `_plugins/`) when
-deploying with Github Pages. This means:
-
-**1)** that we need to generate your site locally (more details below) and push the resulting
-HTML (the contents of `_site/` or `../jasper2-pages/`) to a Github repository, that GitHub Pages
-then host;
-
-**2)** built the site with [travis-ci](https://travis-ci.org/) (with goodies from
-[jekyll-travis](https://github.com/mfenner/jekyll-travis)) automatically pushing the
-generated HTML files to a *gh-pages* branch.
-This later approach is the one I am currently using to generate the live demo.
-
-**3)** deploy the static website with Jekyll-compatible hosters, such as https://www.netlify.com/, that allow for deployment from the Github repo and publish the website using CDNs. Netlify has a free starter offer.
-
-For option **1)** simply clone this repository (*master branch*), and then run
-`bundle exec jekyll serve` inside the directory. Upload the resulting `_site/` (or `../jasper2-pages/`)
-contents to your repository (*master branch* if uploading as your personal page
-(e.g. username.github.io) or *gh-pages branch* if uploading as a project page
-(as for the [demo](https://github.com/jekyller/jasper2/tree/gh-pages)).
-
-For option **2)** you will need to set up travis-ci for your personal fork. Briefly all you
-need then is to change your details in *[\_config.yml](_config.yml)* so that you can push
-to your github repo. You will also need to generate a secure key to add to your
-*[.travis.yml](.travis.yml)* (you can find more info on how to do it in that file).
-Also make sure you read the documentation from
-[jekyll-travis](https://github.com/mfenner/jekyll-travis). This approach has clear
-advantages in that you simply push your file changes to GitHub and all the HTML files
-are generated for you and pushed to *gh-pages*. Also you get to know if everything is
-still fine with your site builds. Don't hesitate to contact me if you still have any
-issues (see below about issue tracking).
-
-### Author Pages
-
-In order to properly generate author pages you need to rename the field *author* in the
-front matter of every post to match that of your each author's *username* as defined
-in the *[\_data/authors.yml](_data/authors.yml)* file.
-With the latest update, multiple author blogs are now supported out of the box.
-
-### Compiling Styles
-
-Following on the way Casper styles are compiled as [described here](https://github.com/tryghost/casper#development):
-
-Jasper2 styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need Node and Gulp installed globally. After that, from the theme's root directory:
-
-```bash
-$ npm install
-$ gulp
+```
+---
+layout: post  <- post로 두시면 됩니다!
+title: fromis9.kr에 나도 글을 쓸수 있다고?!  <- 제목을 입력하시면 됩니다.
+tags : <- 태그를 입력하는 부분입니다 예) 태그1 태그2 태그 3   태그 간의 구분은 스페이스로 합니다.
+excerpt: "10분이면 따라하는 간단한 포스팅!"  <- 글에대한 설명정도로 생각하시면 됩니다.
+categories: [notice]  <- 카테고리 분류입니다. video, photo등이 있습니다.
+comments: true  <- 댓글 화면을 출력해주는 부분입니다.
+---
 ```
 
-Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/` automatically.
+역시 이해하기 힘든 언어인거같습니다..
 
-## Issues and Contributing
+자 그래도 우리에게는 무적의 Ctrl + C, Ctrl + V 가 있습니다.
 
-This install builds well with Ruby v2.4.2 and Jekyll v3.6.2. If you run into any problems
-please log them on the [issue tracker](https://github.com/jekyller/jasper2/issues).
+다른 글을 새창으로 띄운 후 내용을 봅시다!
 
-Feel free pull-request your patches and fixes.
+윗 부분은 살짝씩만 바꾸면 되니 이번엔 본문으로 갑시다!
 
-## Thanks
+```
+### 프로미스나인 공식 인스타그램 업데이트
+
+> 롬쌔 언니의 사랑이 그득 담긴 사진이에요~
+팬분들도 사랑해주실꼬 같아서 올릴꼬에욥💕  
+> #메거니 #크롬쌔 #콜라보레이션 #쥐예아아
+
+![지원](https://fromis9.kr/img/jiwon.jpg)
+```
+
+이 문장은 이렇게 표시됩니다.
+
+### 프로미스나인 공식 인스타그램 업데이트
+
+> 롬쌔 언니의 사랑이 그득 담긴 사진이에요~
+팬분들도 사랑해주실꼬 같아서 올릴꼬에욥💕  
+> #메거니 #크롬쌔 #콜라보레이션 #쥐예아아
+
+![지원](https://fromis9.kr/img/jiwon.jpg)
+
+---
+
+어느정도 감이 오셨나요..?
+
+### 6. Propose New File 버튼을 눌러 제출한다.
+![5](https://fromis9.kr/img/how_to_post/5.JPG)
+
+### 7. Create PullRequest 버튼(초록색) 을 누른다!
+![6](https://fromis9.kr/img/how_to_post/6.JPG)
+
+### 8. 사실 여기까지 왔으면 어찌 되었든 성공하셨습니다!
+![7](https://fromis9.kr/img/how_to_post/7.JPG)
+간략한 설명을 넣어 준 후(안쓰셔도 괜찮아요!)
+모르겠으면 모르겠어요.. 하고 URL, 출처만 보내주셔도 됩니다!! 
+Create PullRequest 눌러줍니다!
 
 
-Many thanks to the Ghost team for all the design work. Also many thanks to all contributors,
-that help keeping the project alive and updated :smile:
+---
 
+일단 8번까지 성공하면 저한테 요청으로 들어와서 제가 수정할 수 있습니다! 편하게 막 쓰셔도 괜찮아요!
 
-## Copyright & License
-
-Same licence as the one provided by Ghost's team. See Casper's theme [license](GHOST.txt).
-
-Copyright (C) 2015-2018 - Released under the MIT License.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+귀찮으시면 issues 라는 부분에 내용만 적어주셔도 올려드립니다!
