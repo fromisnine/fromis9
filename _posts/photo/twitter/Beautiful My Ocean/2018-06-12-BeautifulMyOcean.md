@@ -5,7 +5,7 @@ cover: 'https://pbs.twimg.com/media/Dfg3vYlU0AAS4AU.jpg:large'
 navigation: true
 title: twitter photo -  180612 미니 팬미팅 서연
 date: 2018-06-12
-tags: photo BeautifulMyOcean
+tags: 서연 photo BeautifulMyOcean
 class: post-template
 subclass: 'post tag-photo'
 author: imreplay
