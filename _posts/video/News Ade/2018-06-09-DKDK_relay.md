@@ -5,7 +5,7 @@ cover: 'https://img.youtube.com/vi/PEBhTREkd8g/sddefault.jpg'
 navigation: true
 title: 릴레이댄스 Fromis_9 - 두근두근(DKDK)
 date: 2018-06-09
-tags: video
+tags: video News-Ade
 class: post-template
 subclass: 'post tag-video'
 author: imreplay
