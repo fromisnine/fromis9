@@ -1,4 +1,5 @@
 # Jekyll configuration
+timezone:	Asia/Seoul
 markdown: kramdown
 highlighter: rouge
 paginate: 25 # it will paginate after this number
