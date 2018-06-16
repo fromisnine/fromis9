@@ -103,7 +103,7 @@ cover: 'http://media.fromisnine.com/wp-content/uploads/2018/05/25200607/fromis_9
         
 navigation: true     # 신경쓰지 않아도 됨 수정X
 title: Fromis_9 Official-Photo  #게시글의 제목! '[' 문자와 ']' 문자, '#' 문자는 에러를 일으키므로 주의하자
-date: 2018-06-10 00:00:00       #게시글의 시간이다. 언제 작성하든 그날의 날짜, 시간을 설정할수 있다(시간은 생략가능)
+date: 2018-06-10 00:00:00 +0900 KST       #게시글의 시간이다. 언제 작성하든 그날의 날짜, 시간을 설정할수 있다(시간은 생략가능)
 tags: photo 지헌 서연 지원 지선   #태그 목록이다. 띄어쓰기로 구분한다.
 class: post-template             # 신경쓰지 않아도 됨 수정X
 subclass: 'post tag-photo'        # 신경쓰지 않아도 됨 수정X
