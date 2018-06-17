@@ -14,9 +14,10 @@
     <div class="site-nav-right">
         <div class="social-links">
             <a class="social-link social-link-home" href="http://fromisnine.com" target="_blank" rel="noopener">{% include home.html %}</a>
-            <a class="social-link social-link-cafe" href="http://cafe.daum.net/fromis9" target="_blank" rel="noopener">{% include coffee.html %}</a>
+            <a class="social-link social-link-cafe" href="http://cafe.daum.net/fromis9" target="_blank" rel="noopener">{% include coffee.html %}</a>      
             <a class="social-link social-link-vlive" href="http://channels.vlive.tv/D5E529" target="_blank" rel="noopener">{% include vlive.html %}</a>
             <a class="social-link social-link-fb" href="https://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener">{% include facebook.html %}</a>
+            <a class="social-link social-link-youtube" href="https://www.youtube.com/channel/UC8qO5racajmy4YgPgNJkVXg" target="_blank" rel="noopener">{% include youtube.html %}</a>
             <a class="social-link social-link-insta" href="https://www.instagram.com/officialfromis_9/" target="_blank" rel="noopener">{% include insta.html %}</a>
             {% if site.twitter %}
                 <a class="social-link social-link-tw" href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener">{% include twitter.html %}</a>
@@ -24,6 +25,7 @@
            
            
         </div>
+        <a class="subscribe-button" href="https://github.com/fromisnine/fromis9/blob/master/README.md">글쓰기 안내</a>
         {% if site.subscribers %}
             <a class="subscribe-button" href="#subscribe">Search</a>
         {% endif %}
