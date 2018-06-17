@@ -5,7 +5,7 @@ cover: 'https://pbs.twimg.com/media/Dfj3YscW4AETLao.jpg'
 navigation: true
 title: twitter photo -  180610 한강 브이라이브 지선
 date: 2018-06-10
-tags: 지선 photo DELIGHT DAY
+tags: 지선 photo DELIGHT-DAY
 class: post-template
 subclass: 'post tag-photo'
 author: imreplay

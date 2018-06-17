@@ -5,7 +5,7 @@ cover: 'http://cfile21.uf.tistory.com/original/99EEE0485B2481CD27DD85'
 navigation: true
 title: twitter photo -  180612 미니팬미팅(지선)
 date: 2018-06-12
-tags: 지선 photo DELIGHT DAY
+tags: 지선 photo DELIGHT-DAY
 class: post-template
 subclass: 'post tag-photo'
 author: imreplay
