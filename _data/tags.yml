@@ -1,6 +1,6 @@
 photo:
   name: photo
-  description: False
+  description: 멤버별 사진보기는 <a href="https://fromis9.kr/member">members</a>에서 가능합니다. 
   cover: assets/images/tag/fromis_9_Official-Photo.jpg
 
 video:
