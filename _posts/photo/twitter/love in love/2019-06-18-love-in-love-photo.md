@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: 'https://pbs.twimg.com/media/DffkzW8V4AEl5hR.jpg'
+cover: 'https://pbs.twimg.com/media/Df-J56aUYAAwFt0.jpg'
 navigation: true
 title: twitter photo -  180614 새롬
 date: 2018-06-14
