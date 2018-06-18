@@ -4,7 +4,7 @@ current: post
 cover: 'https://pbs.twimg.com/media/Df38xuCVMAAo7GT.jpg'
 navigation: true
 title: twitter photo - 180612 미니팬미팅 지선
-date: 2018-06-17 22:48:00 +0900 KST
+date: 2018-06-12 22:48:00 +0900 KST
 tags: 지선 photo OverTheSunrise
 class: post-template
 subclass: 'post tag-photo'
