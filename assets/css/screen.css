@@ -817,7 +817,7 @@ Usage (In Ghost editor):
 
 .post-full-content pre code {
     padding: 0;
-    font-size: inherit;
+    font-size: 23px;
     line-height: inherit;
     background: transparent;
 }
