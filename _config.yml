@@ -29,7 +29,7 @@ facebook: officialfromis9 # replace by your username
 
 # Disqus
 disqus: True
-disqus_shortname: fromis9 # replace with your disqus username
+disqus_shortname: fromisnine # replace with your disqus username
 
 # Google Analytics
 google_analytics: UA-120523980-1 # replace with your GA tracking identifier
