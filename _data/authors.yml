@@ -3,7 +3,7 @@ imreplay:
   name: imreplay
   url_full: https://fromis9.kr
   url: fromis9.kr
-  bio: fromis_9 fan
+  bio: fromis_9 fan and page manager.
   picture: assets/images/blog-icon.png
   facebook: imreplay08
   twitter: imreplay0822
@@ -11,7 +11,7 @@ imreplay:
 
 auto-posting:
   username: auto-posting
-  name: imreplay-auto
+  name: fromis9.kr-auto
   url_full: https://fromis9.kr
   url: fromis9.kr
   bio: auto posting program
