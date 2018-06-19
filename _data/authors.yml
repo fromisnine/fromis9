@@ -8,3 +8,12 @@ imreplay:
   facebook: imreplay08
   twitter: imreplay0822
   cover: False
+
+auto-posting:
+  username: auto-posting
+  name: imreplay-auto
+  url_full: https://fromis9.kr
+  url: fromis9.kr
+  bio: auto posting program
+  picture: assets/images/blog-icon.png
+  cover: False
