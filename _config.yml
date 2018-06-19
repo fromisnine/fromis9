@@ -7,7 +7,7 @@ language: 'en-uk'
 
 url: https://fromis9.kr
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: "/"
+baseurl: '/'
 
 # Website info
 title: Fromis_9 Fan Page
