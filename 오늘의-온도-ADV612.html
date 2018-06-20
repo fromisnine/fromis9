@@ -50,6 +50,7 @@ Post by 오늘의 온도
 
 
   오늘의 온도
+로고크롭, 2차가공 금지
 
 " />
     <meta property="og:url" content="https://fromis9.kr/%EC%98%A4%EB%8A%98%EC%9D%98-%EC%98%A8%EB%8F%84-ADV612" />
@@ -76,6 +77,7 @@ Post by 오늘의 온도
 
 
   오늘의 온도
+로고크롭, 2차가공 금지
 
 " />
     <meta name="twitter:url" content="https://fromis9.kr/" />
@@ -124,6 +126,7 @@ Post by 오늘의 온도
 
 
   오늘의 온도
+로고크롭, 2차가공 금지
 
 "
 }
@@ -196,7 +199,7 @@ Post by 오늘의 온도
     </script>
 
 </head>
-<body class="post-template">
+<body class="지선 post-template">
 
     <div class="site-wrapper">
         <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
@@ -306,7 +309,8 @@ into the {body} of the default.hbs template -->
 <p>Post by 오늘의 온도</p>
 
 <blockquote>
-  <p><a href="https://twitter.com/Temperature_98">오늘의 온도</a></p>
+  <p><a href="https://twitter.com/Temperature_98">오늘의 온도</a><br />
+로고크롭, 2차가공 금지</p>
 </blockquote>
 
                 </div>
@@ -494,14 +498,6 @@ into the {body} of the default.hbs template -->
                                     
                                   
                                 
-                                  
-                                
-                                  
-                                    
-                                  
-                                
-                                  
-                                    
                                   
                                 
                                   
@@ -739,7 +735,7 @@ into the {body} of the default.hbs template -->
                         <footer class="read-next-card-footer">
                             <a href="/tag/오늘의-온도/">
                                 
-                                    See all 10 posts  →
+                                    See all 8 posts  →
                                 
                             </a>
                         </footer>
@@ -752,14 +748,18 @@ into the {body} of the default.hbs template -->
                 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/%EC%98%A4%EB%8A%98%EC%9D%98-%EC%98%A8%EB%8F%84-9MMDWV">
-                <div class="post-card-image" style="background-image: url(https://pbs.twimg.com/media/Df9b1AbU0AErX3a.jpg)"></div>
+            <a class="post-card-image-link" href="/%EC%98%A4%EB%8A%98%EC%9D%98-%EC%98%A8%EB%8F%84-FDUA7V">
+                <div class="post-card-image" style="background-image: url(https://pbs.twimg.com/media/Df9cJj4VAAEHt_H.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/%EC%98%A4%EB%8A%98%EC%9D%98-%EC%98%A8%EB%8F%84-9MMDWV">
+            <a class="post-card-content-link" href="/%EC%98%A4%EB%8A%98%EC%9D%98-%EC%98%A8%EB%8F%84-FDUA7V">
                 <header class="post-card-header">
                     
+                        
+                            
+                               <span class="post-card-tags">지선</span>
+                            
                         
                             
                                <span class="post-card-tags">오늘의-온도</span>
@@ -774,10 +774,10 @@ into the {body} of the default.hbs template -->
                     <h2 class="post-card-title">오늘의 온도 twitter post</h2>
                 </header>
                 <section class="post-card-excerpt">
-                    <p>180618 팩트인스타  
-#프로미스나인 #박지원 #fromis_9 #Parkjiwon  
+                    <p>180618 팩트인스타   
+  
+#프로미스나인 #노지선 #fromis_9 #Rohjisun  
 @realfromis_9  
-
 
 
 
@@ -789,6 +789,7 @@ Post by 오늘의 온도
 
 
   오늘의 온도
+로고크롭, 2차가공 금지
 
 </p>
                 </section>
@@ -1008,71 +1009,6 @@ V Live 에서 시청하기
 
 
     <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
-    
-        <script>
-
-// NOTE: Scroll performance is poor in Safari
-// - this appears to be due to the events firing much more slowly in Safari.
-//   Dropping the scroll event and using only a raf loop results in smoother
-//   scrolling but continuous processing even when not scrolling
-$(document).ready(function () {
-    // Start fitVids
-    var $postContent = $(".post-full-content");
-    $postContent.fitVids();
-    // End fitVids
-
-    var progressBar = document.querySelector('progress');
-    var header = document.querySelector('.floating-header');
-    var title = document.querySelector('.post-full-title');
-
-    var lastScrollY = window.scrollY;
-    var lastWindowHeight = window.innerHeight;
-    var lastDocumentHeight = $(document).height();
-    var ticking = false;
-
-    function onScroll() {
-        lastScrollY = window.scrollY;
-        requestTick();
-    }
-
-    function onResize() {
-        lastWindowHeight = window.innerHeight;
-        lastDocumentHeight = $(document).height();
-        requestTick();
-    }
-
-    function requestTick() {
-        if (!ticking) {
-            requestAnimationFrame(update);
-        }
-        ticking = true;
-    }
-
-    function update() {
-        var trigger = title.getBoundingClientRect().top + window.scrollY;
-        var triggerOffset = title.offsetHeight + 35;
-        var progressMax = lastDocumentHeight - lastWindowHeight;
-
-        // show/hide floating header
-        if (lastScrollY >= trigger + triggerOffset) {
-            header.classList.add('floating-active');
-        } else {
-            header.classList.remove('floating-active');
-        }
-
-        progressBar.setAttribute('max', progressMax);
-        progressBar.setAttribute('value', lastScrollY);
-
-        ticking = false;
-    }
-
-    window.addEventListener('scroll', onScroll, {passive: true});
-    window.addEventListener('resize', onResize, false);
-
-    update();
-});
-</script>
-
     
 
     <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
