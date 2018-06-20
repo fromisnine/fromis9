@@ -1,5 +1,5 @@
 @import "global.css";
-.highlight pre { background: color(var(--pink) l(-3%)); }
+.highlight pre { background: color(var(--pink) l(-3%)); white-space: inherit;}
 .highlight .hll { background: color(var(--pink) l(-3%)); white-space: inherit;}
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: color(var(--pink) l(-3%)) } /* Error */
