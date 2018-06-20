@@ -1,6 +1,6 @@
 @import "global.css";
-.highlight pre { background: color(var(--pink) l(-3%)); white-space: inherit;}
-.highlight .hll { background: color(var(--pink) l(-3%)); white-space: inherit;}
+.highlight pre { background: color(var(--pink) l(-3%)); white-space: pre-line;}
+.highlight .hll { background: color(var(--pink) l(-3%)); white-space: pre-line;}
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: color(var(--pink) l(-3%)) } /* Error */
 .highlight .k { color: #66d9ef } /* Keyword */
