@@ -12,9 +12,9 @@ author: auto-posting
 ---
 
 ```  
-�ФФФФ̤� û���ϸ� ������ �̤ФФФ�  
+ㅠㅠㅠㅠㅜㅜ 청순하면 지선이 ㅜㅠㅠㅠㅜ  
   
-#���ι̽����� #������ #fromis_9 #Rohjisun  
+#프로미스나인 #노지선 #fromis_9 #Rohjisun  
 
 ```
 
