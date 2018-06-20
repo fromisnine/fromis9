@@ -11,7 +11,7 @@ subclass: post tag-photo
 author: auto-posting
 ---
 
-```  
+```
 180618 팩트인스타  
   
 #박지원 #parkjiwon  
