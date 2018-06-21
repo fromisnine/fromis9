@@ -11,7 +11,7 @@ urls = input('트윗 주소 : ').split(',')#'https://twitter.com/BMO_fromis/stat
 
 # 트위터 업로더 목록
 user_list = {
-  'BMO_fromis':'Beautiful My Ocean', #션
+    'BMO_fromis':'Beautiful My Ocean', #션
   'fromis_RJS':'Over The Sunrise', #지선
   'pitapat320':'pit a pat', #젼
   '000514net':'미루나무', #챙
@@ -24,6 +24,8 @@ user_list = {
   'OrangeRoad8':'ORANGE ROAD', #all
   'LastClover_0514':'Last Clover', #채영
   'kkhoney0417':'꿀꿀허니', #지헌
+  'Temperature_98':'오늘의 온도', #지원,지선
+  '970929_net' : '송하영닷넷', #하영
   'realfromis_9':'fromis_9' #공식
 }
 for url in urls:
@@ -72,7 +74,22 @@ if (flag == "" or flag == "y"):
   fromis9.commit_and_push('./posts/','../fromis9/_posts/photo/twitter/auto')
 
 
+'''
+#윈도우 버전
+    n_post = fromis9.Post(t_date,'photo')
+    n_post.set_cover(img)
+    n_post.set_option(f'{user_name} twitter post',name_tag)
+    n_post.set_body(text,user_name,f'https://twitter.com/{user_id}')
+    n_post.make_post('c:\\Users\\Nirone\\Desktop\\pz\\my_files\\py\\fromis9\\posts',user_name)
+  else:
+    print('사진이 없습니다. 다음 포스팅을 진행합니다..')
 
+flag = input('바로 커밋 하시겠습니까? [default:y] : ')
+
+if (flag == "" or flag == "y"):
+  fromis9.commit_and_push('c:\\Users\\Nirone\\Desktop\\pz\\my_files\\py\\fromis9\\posts\\','C:\\Users\\Nirone\\Desktop\\pz\\fromis9\\_posts\\photo\\twitter\\auto')
+
+'''
 
 
 
