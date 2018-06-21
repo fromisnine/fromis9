@@ -55,7 +55,7 @@ for url in urls:
 flag = input('바로 커밋 하시겠습니까? [default:y] : ')
 
 if (flag == "" or flag == "y"):
-  fromis9.commit_and_push('./posts/','../../fromis9/_posts/photo/insta/auto')
+  fromis9.commit_and_push('./posts/','../fromis9/_posts/photo/insta/auto')
 
 
 
