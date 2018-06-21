@@ -28,6 +28,7 @@ user_list = {
   '970929_net' : '송하영닷넷', #하영
   'Studio_NaGyung': 'SIGNAL', # 하영, 나경
   '9clover_' : 'NINE CLOVER TO HEART',
+  'jiwon_is_pretty': '박지원 예쁘다', #지원
   'realfromis_9':'fromis_9' #공식
 }
 for url in urls:
