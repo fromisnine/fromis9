@@ -4,7 +4,7 @@ current: post
 cover: https://scontent-icn1-1.cdninstagram.com/vp/cecf7fd4b15ad39563f15b7ab254aa6c/5BB087B8/t51.2885-15/e35/p612x612/34901524_2120196217994892_6525130997183283200_n.jpg
 navigation: true
 title: officialfromis_9 instagram post
-date: 2018-06-21 12:32:55 +0900 KST
+date: 2018-06-21 12:32:55
 tags: officialfromis_9 photo
 class: post-template
 subclass: post tag-photo
