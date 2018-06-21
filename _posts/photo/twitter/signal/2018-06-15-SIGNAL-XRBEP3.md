@@ -5,7 +5,7 @@ cover: https://pbs.twimg.com/media/Dft1-ABUcAAFLJh.jpg
 navigation: true
 title: SIGNAL twitter post
 date: 2018-06-15 16:42:09 +0900 KST
-tags: SIGNAL photo
+tags: 하영 지원 SIGNAL photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting
@@ -28,4 +28,5 @@ author: auto-posting
 
 Post by SIGNAL
 
-> [SIGNAL](https://twitter.com/Studio_NaGyung)
+> [SIGNAL](https://twitter.com/Studio_NaGyung)  
+로고크롭, 2차가공 금지

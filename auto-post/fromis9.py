@@ -34,7 +34,7 @@ class Post:
     #msg = '> 본 게시물은 자동으로 작성된 게시물이며 추후 수정될 수 있습니다.\n'
     self.body = body
     self.body += f'\n\nPost by {name}\n\n'
-    self.body += f'> [{name}]({url})'
+    self.body += f'> [{name}]({url})  \n  로고크롭, 2차가공 금지'
 
   def random_gen(self,size=6, chars=string.ascii_uppercase + string.digits):
     return ''.join(random.choice(chars) for x in range(size))
