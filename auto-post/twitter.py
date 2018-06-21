@@ -11,7 +11,7 @@ urls = input('트윗 주소 : ').split(',')#'https://twitter.com/BMO_fromis/stat
 
 # 트위터 업로더 목록
 user_list = {
-    'BMO_fromis':'Beautiful My Ocean', #션
+  'BMO_fromis':'Beautiful My Ocean', #션
   'fromis_RJS':'Over The Sunrise', #지선
   'pitapat320':'pit a pat', #젼
   '000514net':'미루나무', #챙
@@ -26,6 +26,8 @@ user_list = {
   'kkhoney0417':'꿀꿀허니', #지헌
   'Temperature_98':'오늘의 온도', #지원,지선
   '970929_net' : '송하영닷넷', #하영
+  'Studio_NaGyung': 'SIGNAL', # 하영, 나경
+  '9clover_' : 'NINE CLOVER TO HEART',
   'realfromis_9':'fromis_9' #공식
 }
 for url in urls:
