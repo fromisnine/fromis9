@@ -10,7 +10,7 @@ from shutil import move
 
 class Post:
   def __init__(self, date, post_type): #example : post(datetime,tag, video/photo..)
-    self.date = str(date)[:19]
+    self.date = str(date)[:19] + " +0900 KST"
     self.tags = [post_type]
     self.data = {
       'layout':'post',
