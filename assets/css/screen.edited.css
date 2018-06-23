@@ -126,6 +126,7 @@ td.code {
     border: none;
     min-width: 100%;
     max-width: 100%;
+    font-family: apple;
 }
 
 .highlight table,
