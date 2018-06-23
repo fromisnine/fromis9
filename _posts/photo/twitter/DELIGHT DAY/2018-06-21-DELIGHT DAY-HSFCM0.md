@@ -5,7 +5,7 @@ cover: https://pbs.twimg.com/media/DgNh993VAAMKgml.jpg
 navigation: true
 title: DELIGHT DAY twitter post
 date: 2018-06-21 20:22:36 +0900 KST
-tags: DELIGHT-DAY photo
+tags: 지선 DELIGHT-DAY photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting

@@ -1,11 +1,11 @@
 ---
 layout: post
 current: post
-cover: https://pbs.twimg.com/media/DgOAdvcV4AAX3iV.jpg
+cover: https://pbs.twimg.com/media/DgN92sIV4AAWF79.jpg
 navigation: true
 title: NINE CLOVER TO HEART twitter post
-date: 2018-06-21 22:35:48
-tags: NINE-CLOVER-TO-HEART photo
+date: 2018-06-21 22:24:25
+tags: 채영 NINE-CLOVER-TO-HEART photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting
@@ -15,8 +15,8 @@ author: auto-posting
 180612  
 상암 더쇼 미니팬미팅  
   
-#지원  
-#박지원  
+#채영  
+#이채영  
 #프로미스나인  
 #fromis_9  
   
@@ -24,7 +24,7 @@ author: auto-posting
 
 ```
 
-![0](https://pbs.twimg.com/media/DgOAdvcV4AAX3iV.jpg)
+![0](https://pbs.twimg.com/media/DgN92sIV4AAWF79.jpg)
 
 
 Post by NINE CLOVER TO HEART

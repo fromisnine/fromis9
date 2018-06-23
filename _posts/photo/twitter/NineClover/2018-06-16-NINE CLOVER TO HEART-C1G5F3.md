@@ -5,7 +5,7 @@ cover: https://pbs.twimg.com/media/Dfy883GU8AA-1WU.jpg
 navigation: true
 title: NINE CLOVER TO HEART twitter post
 date: 2018-06-16 16:31:31
-tags: NINE-CLOVER-TO-HEART photo
+tags: 서연 NINE-CLOVER-TO-HEART photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting
