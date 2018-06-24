@@ -147,7 +147,7 @@ Member
 					<h2 class="post-card-title">백지헌</h2>
 				</header>
 				<section class="post-card-content-link">
-					<p>2003.04.14</p>
+					<p>2003.04.17</p>
 				</section>
 			</a>
     </div>
