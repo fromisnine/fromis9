@@ -4,7 +4,7 @@ current: post
 cover: https://pbs.twimg.com/media/Dgb38rhU8AEUtZH.jpg
 navigation: true
 title: fromis_9 twitter post
-date: 2018-06-24 15:13:18
+date: 2018-06-24 15:13:18 +0900 KST
 tags: fromis_9 photo
 class: post-template
 subclass: post tag-photo

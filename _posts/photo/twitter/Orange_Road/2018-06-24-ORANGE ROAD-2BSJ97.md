@@ -4,8 +4,8 @@ current: post
 cover: https://pbs.twimg.com/media/DgYnWdtVQAA7aZ5.jpg
 navigation: true
 title: ORANGE ROAD twitter post
-date: 2018-06-24 00:01:58
-tags: ORANGE-ROAD photo
+date: 2018-06-24 00:01:58 +0900 KST
+tags: 지헌 서연 ORANGE-ROAD photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting
