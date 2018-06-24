@@ -29,7 +29,7 @@ user_list = {
   'Studio_NaGyung': 'SIGNAL', # 하영, 나경
   '9clover_' : 'NINE CLOVER TO HEART',
   'jiwon_is_pretty': '박지원 예쁘다', #지원
-  'jiheon03_' : '굴굴당첨', #지헌
+  'jiheon03_' : '꿀꿀', #지헌
   'realfromis_9':'fromis_9' #공식
 }
 for url in urls:
