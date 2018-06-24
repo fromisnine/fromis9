@@ -31,6 +31,7 @@ user_list = {
   'jiwon_is_pretty': '박지원 예쁘다', #지원
   'jiheon03_' : '꿀꿀', #지헌
   'fromis_ng':'First Pearl', #나경
+  'pinkypic7':'Pinky:)',
   'realfromis_9':'fromis_9' #공식
 }
 for url in urls:
