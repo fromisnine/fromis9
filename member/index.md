@@ -8,7 +8,25 @@ subclass: 'post page'
 ---
 
 Member
+<div class = 'post-feed'>
+  <article class="post-card">
+    <a class="post-card-imgage-link" href="./saerom">
+      <div class='post-card-image' style='background-image: url(http://fromisnine.com/wp-content/themes/fromis_9_ToDay/images/today-lee-saerom.jpg)'></div>
+    </a>
+    
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="./saerom">
+				<header class="post-card-header">
+					<h2 class="post-card-title">이새롬</h2>
+				</header>
+				<section class="post-card-content-link">
+					<p>1997.01.07</p>
+				</section>
+			</a>
+    </div>
+  </article>
 
+</div>
 **[새롬](https://fromis9.kr/tag/새롬/)**  
 **[하영](https://fromis9.kr/tag/하영/)**  
 **[규리](https://fromis9.kr/tag/규리/)**  
