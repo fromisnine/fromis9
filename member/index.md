@@ -42,22 +42,6 @@ Member
   </article>
 
   <article class="post-card">
-    <a class="post-card-imgage-link" href="https://fromis9.kr/tag/하영">
-      <div class='post-card-image' style='background-image: url(http://fromisnine.com/wp-content/themes/fromis_9_ToDay/images/today-song-hayoung.jpg)'></div>
-    </a> 
-    <div class="post-card-content">
-      <a class="post-card-content-link" href="https://fromis9.kr/tag/하영">
-				<header class="post-card-header">
-					<h2 class="post-card-title">송하영</h2>
-				</header>
-				<section class="post-card-content-link">
-					<p>1997.09.29</p>
-				</section>
-			</a>
-    </div>
-  </article>
-
-  <article class="post-card">
     <a class="post-card-imgage-link" href="https://fromis9.kr/tag/규리">
       <div class='post-card-image' style='background-image: url(https://pbs.twimg.com/media/DflHGjoVAAAc5ME.jpg)'></div>
     </a> 
