@@ -1,26 +1,24 @@
 ---
 layout: post
 current: post
-cover: https://pbs.twimg.com/media/DgYpZFBUcAElSRR.jpg
+cover: https://pbs.twimg.com/media/DcPUKEKVAAAwTrs.jpg
 navigation: true
 title: First Pearl twitter post
-date: 2018-06-24 00:12:23 +0900 KST
-tags: First-Pearl photo
+date: 2018-06-24 16:45:19 +0900 KST
+tags: 나경 First-Pearl photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting
 ---
 
 ```  
-180623 ICN  
+180415 KCON 미니 약속회  
   
-미국 잘 다녀와요  
 #프로미스나인 #fromis_9 #이나경  
 
 ```
 
-![0](https://pbs.twimg.com/media/DgYpYFqUwAAgnpR.jpg)
-![1](https://pbs.twimg.com/media/DgYpZFBUcAElSRR.jpg)
+![0](https://pbs.twimg.com/media/DcPUKEKVAAAwTrs.jpg)
 
 
 Post by First Pearl

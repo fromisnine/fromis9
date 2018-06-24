@@ -1,27 +1,27 @@
 ---
 layout: post
 current: post
-cover: https://pbs.twimg.com/media/DgYXQYXV4AMRC_5.jpg
+cover: https://pbs.twimg.com/media/DYqnHx3VoAE9fp9.jpg
 navigation: true
 title: First Pearl twitter post
-date: 2018-06-23 22:53:26 +0900 KST
-tags: First-Pearl photo
+date: 2018-06-24 16:45:19 +0900 KST
+tags: 나경 First-Pearl photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting
 ---
 
 ```  
-180623 ICN  
+180318 마지막 약속회  
   
-너 없는 한국은 너무 적적해서  
+나꼬 온라인 !  
   
 #프로미스나인 #fromis_9 #이나경  
 
 ```
 
-![0](https://pbs.twimg.com/media/DgYXQYRUYAEQ_Fd.jpg)
-![1](https://pbs.twimg.com/media/DgYXQYXV4AMRC_5.jpg)
+![0](https://pbs.twimg.com/media/DYqnFzyV4AAVGJ9.jpg)
+![1](https://pbs.twimg.com/media/DYqnHx3VoAE9fp9.jpg)
 
 
 Post by First Pearl

@@ -1,25 +1,25 @@
 ---
 layout: post
 current: post
-cover: https://pbs.twimg.com/media/DYuFwu1U0AAUY-b.jpg
+cover: https://pbs.twimg.com/media/DbczDYQVMAA3Jd_.jpg
 navigation: true
 title: First Pearl twitter post
-date: 2018-03-20 18:01:19 +0900 KST
-tags: First-Pearl photo
+date: 2018-06-24 16:45:19 +0900 KST
+tags: 나경 First-Pearl photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting
 ---
 
 ```  
-180318 마지막 약속회  
+180416 GMP   
   
-사랑을 담아서, 나꼬 !   
 #프로미스나인 #fromis_9 #이나경  
 
 ```
 
-![0](https://pbs.twimg.com/media/DYuFwu1U0AAUY-b.jpg)
+![0](https://pbs.twimg.com/media/DbczDYQV4AAnnep.jpg)
+![1](https://pbs.twimg.com/media/DbczDYQVMAA3Jd_.jpg)
 
 
 Post by First Pearl

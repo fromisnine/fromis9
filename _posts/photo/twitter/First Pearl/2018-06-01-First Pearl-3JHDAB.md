@@ -4,8 +4,8 @@ current: post
 cover: https://pbs.twimg.com/media/DeiP7FPVwAAdj0h.jpg
 navigation: true
 title: First Pearl twitter post
-date: 2018-06-01 00:24:29 +0900 KST
-tags: First-Pearl photo
+date: 2018-06-24 16:45:19 +0900 KST
+tags: 나경 First-Pearl photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting
