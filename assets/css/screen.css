@@ -193,7 +193,7 @@ body {
 .site-nav {
     position: relative;
     z-index: 300;
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     align-items: flex-start;
     overflow-y: hidden;
@@ -1703,7 +1703,7 @@ Usage (In Ghost editor):
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(0,25,40,0.97);
+    background: rgba(253, 133, 191, 0.97);
     opacity: 0;
     transition: opacity 200ms ease-in;
     pointer-events: none;
@@ -1729,13 +1729,13 @@ Usage (In Ghost editor):
     position: fixed;
     top: 23px;
     left: 30px;
-    height: 30px;
+    height: 70px;
 }
 
 .subscribe-overlay-title {
     display: inline-block;
     margin: 0 0 10px 0;
-    font-size: 6rem;
+    font-size: x-large;
     line-height: 1.15em;
 }
 
