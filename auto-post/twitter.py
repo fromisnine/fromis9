@@ -32,7 +32,7 @@ user_list = {
   'jiheon03_' : '꿀꿀', #지헌
   'fromis_ng':'First Pearl', #나경
   'pinkypic7':'Pinky',
-  '970929_love': 'song-writer',
+  '970929_love': 'song-writer', #채영
   'realfromis_9':'fromis_9' #공식
 }
 for url in urls:
