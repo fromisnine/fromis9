@@ -5,7 +5,7 @@ cover: https://pbs.twimg.com/media/Dgglt1oUcAYnjUE.jpg
 navigation: true
 title: AppleBerry twitter post
 date: 2018-06-25 13:12:34 +0900 KST
-tags: AppleBerry photo
+tags: 나경 AppleBerry photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting

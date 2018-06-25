@@ -5,7 +5,7 @@ cover: https://pbs.twimg.com/media/DgeMqX3UcAAOUY2.jpg
 navigation: true
 title: song-writer twitter post
 date: 2018-06-25 02:03:10 +0900 KST
-tags: song-writer photo
+tags: 하영 song-writer photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting

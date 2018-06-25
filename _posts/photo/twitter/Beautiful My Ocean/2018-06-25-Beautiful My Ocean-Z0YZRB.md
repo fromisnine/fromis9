@@ -5,7 +5,7 @@ cover: https://pbs.twimg.com/media/DggCxxCUwAAXIK2.jpg
 navigation: true
 title: Beautiful My Ocean twitter post
 date: 2018-06-25 10:39:08 +0900 KST
-tags: Beautiful-My-Ocean photo
+tags: 서연 Beautiful-My-Ocean photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting

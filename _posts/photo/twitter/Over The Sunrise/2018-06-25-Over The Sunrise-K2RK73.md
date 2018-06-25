@@ -5,7 +5,7 @@ cover: https://pbs.twimg.com/media/Dgd_Ee_U8AAVrYb.jpg
 navigation: true
 title: Over The Sunrise twitter post
 date: 2018-06-25 01:03:41 +0900 KST
-tags: Over-The-Sunrise photo
+tags: 지원 Over-The-Sunrise photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting

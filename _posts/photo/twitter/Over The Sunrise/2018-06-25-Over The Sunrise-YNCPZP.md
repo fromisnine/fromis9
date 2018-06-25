@@ -1,25 +1,25 @@
 ---
 layout: post
 current: post
-cover: https://pbs.twimg.com/media/DgdyogLVQAAIG0W.jpg
+cover: https://pbs.twimg.com/media/DgepB1LUEAAP7PI.jpg
 navigation: true
 title: Over The Sunrise twitter post
-date: 2018-06-25 00:09:22 +0900 KST
-tags: Over-The-Sunrise photo
+date: 2018-06-25 04:07:03 +0900 KST
+tags: 지선 Over-The-Sunrise photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting
 ---
 
 ```  
-180612 미니팬미팅 프로미스나인 노지선  
+180622 뮤직뱅크 퇴근 프로미스나인 노지선  
   
 #프로미스나인 #노지선  
 #fromis_9 #RohJiSun  
 
 ```
 
-![0](https://pbs.twimg.com/media/DgdyogLVQAAIG0W.jpg)
+![0](https://pbs.twimg.com/media/DgepB1LUEAAP7PI.jpg)
 
 
 Post by Over The Sunrise
