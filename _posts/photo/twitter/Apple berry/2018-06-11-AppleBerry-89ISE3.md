@@ -4,8 +4,8 @@ current: post
 cover: https://pbs.twimg.com/media/DfVqKtnUcAUHm7n.jpg
 navigation: true
 title: AppleBerry twitter post
-date: 채영 2018-06-11 00:01:00 +0900 KST
-tags: AppleBerry photo
+date: 2018-06-11 00:01:00 +0900 KST
+tags: 채영 AppleBerry photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting
