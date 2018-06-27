@@ -1,11 +1,11 @@
 ---
 layout: post
 current: post
-cover: https://pbs.twimg.com/media/DgjKw1uUwAADQNc.jpg
+cover: https://pbs.twimg.com/media/DgjQfZxU0AAbePx.jpg
 navigation: true
 title: First Pearl twitter post
-date: 2018-06-26 01:12:55 +0900 KST
-tags: First-Pearl photo
+date: 2018-06-26 01:38:55 +0900 KST
+tags: 나경 First-Pearl photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting
@@ -14,14 +14,14 @@ author: auto-posting
 ```  
 180623 ICN  
   
-정신이 망신이야 홀렸어 네게  
+피가 한쪽으로 또 쏠렸어 네게  
   
 #프로미스나인 #fromis_9 #이나경  
 
 ```
 
-![0](https://pbs.twimg.com/media/DgjKv3MUEAADs3r.jpg)
-![1](https://pbs.twimg.com/media/DgjKw1uUwAADQNc.jpg)
+![0](https://pbs.twimg.com/media/DgjQeFHUwAEPs3Y.jpg)
+![1](https://pbs.twimg.com/media/DgjQfZxU0AAbePx.jpg)
 
 
 Post by First Pearl

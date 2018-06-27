@@ -1,29 +1,26 @@
 ---
 layout: post
 current: post
-cover: https://pbs.twimg.com/media/DgngaBFUwAAYaqx.jpg
+cover: https://pbs.twimg.com/media/DghLBWrVAAIr_fv.jpg
 navigation: true
 title: Beautiful My Ocean twitter post
-date: 2018-06-26 21:25:55 +0900 KST
-tags: Beautiful-My-Ocean photo
+date: 2018-06-25 15:54:48 +0900 KST
+tags: 서연 Beautiful-My-Ocean photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting
 ---
 
 ```  
-180626 ICN 입국  
+180623 ICN 출국  
   
 #이서연  
 #Seoyeon  
-#fromis_9   
-  
-귀여운 셔니  
+#fromis_9  
 
 ```
 
-![0](https://pbs.twimg.com/media/DgngYe7VMAEt-Fp.jpg)
-![1](https://pbs.twimg.com/media/DgngaBFUwAAYaqx.jpg)
+![0](https://pbs.twimg.com/media/DghLBWrVAAIr_fv.jpg)
 
 
 Post by Beautiful My Ocean

@@ -1,11 +1,11 @@
 ---
 layout: post
 current: post
-cover: https://pbs.twimg.com/media/DghVqhyUYAMf6Mb.jpg
+cover: https://pbs.twimg.com/media/DghOrz2VMAA8Hb7.jpg
 navigation: true
 title: Beautiful My Ocean twitter post
-date: 2018-06-25 16:41:19 +0900 KST
-tags: Beautiful-My-Ocean photo
+date: 2018-06-25 16:10:56 +0900 KST
+tags: 나경 Beautiful-My-Ocean photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting
@@ -14,14 +14,13 @@ author: auto-posting
 ```  
 180618 팩트인스타  
   
-#노지선  
-#Jisun  
+#이나경  
+#Nakyung  
 #fromis_9  
 
 ```
 
-![0](https://pbs.twimg.com/media/DghVoKxVAAE6xvO.jpg)
-![1](https://pbs.twimg.com/media/DghVqhyUYAMf6Mb.jpg)
+![0](https://pbs.twimg.com/media/DghOrz2VMAA8Hb7.jpg)
 
 
 Post by Beautiful My Ocean

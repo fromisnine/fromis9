@@ -5,7 +5,7 @@ cover: https://pbs.twimg.com/media/DgiqQ-mUEAAqrbY.jpg
 navigation: true
 title: love in love twitter post
 date: 2018-06-25 22:51:45 +0900 KST
-tags: love-in-love photo
+tags: 새롬 love-in-love photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting
