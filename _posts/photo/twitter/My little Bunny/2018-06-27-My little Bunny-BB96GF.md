@@ -5,7 +5,7 @@ cover: https://pbs.twimg.com/media/Dgsyil-UwAAC81P.jpg
 navigation: true
 title: My little Bunny twitter post
 date: 2018-06-27 22:03:16 +0900 KST
-tags: My-little-Bunny photo
+tags: 하영 My-little-Bunny photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting

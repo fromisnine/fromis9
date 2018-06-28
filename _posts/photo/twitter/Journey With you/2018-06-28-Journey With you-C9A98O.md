@@ -5,7 +5,7 @@ cover: https://pbs.twimg.com/media/DgtYaeVUcAADEtd.jpg
 navigation: true
 title: Journey With you twitter post
 date: 2018-06-28 00:49:03 +0900 KST
-tags: Journey-With-you photo
+tags: 지원 Journey-With-you photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting
