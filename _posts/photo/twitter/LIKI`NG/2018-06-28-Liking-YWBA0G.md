@@ -5,7 +5,7 @@ cover: https://pbs.twimg.com/media/Dgxvk5QVAAAUani.jpg
 navigation: true
 title: Liking twitter post
 date: 2018-06-28 21:09:12 +0900 KST
-tags: Liking photo
+tags: 나경 Liking photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting

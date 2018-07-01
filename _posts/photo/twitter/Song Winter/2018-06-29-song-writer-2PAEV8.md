@@ -5,7 +5,7 @@ cover: https://pbs.twimg.com/media/Dg2fuqZV4AIxoP4.jpg
 navigation: true
 title: song-writer twitter post
 date: 2018-06-29 19:17:27 +0900 KST
-tags: song-writer photo
+tags: 서연 song-writer photo
 class: post-template
 subclass: post tag-photo
 author: auto-posting
