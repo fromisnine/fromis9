@@ -27,7 +27,8 @@ user_list = {
   'Temperature_98':'오늘의 온도', #지원,지선
   '970929_net' : '송하영닷넷', #하영
   'Studio_NaGyung': 'SIGNAL', # 하영, 나경
-  '9clover_' : 'NINE CLOVER TO HEART',
+  '9clover_' : 'CLOVER HEART',
+  'JIHEON_120': '120％백지헌', #지헌
   'jiwon_is_pretty': '박지원 예쁘다', #지원
   'jiheon03_' : '꿀꿀', #지헌
   'fromis_ng':'First Pearl', #나경
